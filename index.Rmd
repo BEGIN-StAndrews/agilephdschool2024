@@ -16,3 +16,98 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "GeoTecINIT/agilephdschool2022") %>%
+  meta_social(
+    title = "AGILE PhD School 2022",
+    url ="https://geotecinit.github.io/agilephdschool2022/"
+  )
+```
+
+
+**6th AGILE PhD School 2022** - *Make your work more open and reproducible*
+
+June 1st – 3rd 2022, [Institute of New Imaging Technologies](https://www.init.uji.es/?lang=en), Universitat Jaume I, Castellón (Spain)
+
+The AGILE PhD school aims to bring PhD students from different countries together. The purpose of the school is to offer a platform for PhD students to present their research to date, exchange ideas, learn and discuss geospatial methods and acquire and improve skills related to geoinformatics. This will allow participants to:  
+
+-   be exposed to the diversity of fields and common features of our domain  
+-   exchange ideas about the PhD process itself  
+-   develop their own network
+-   be exposed to the reproducibility and reproducibility practices in Geoscience and GIScience.
+
+## Programme
+
+### Day 1 (31 May 2022, Tuesday) 
+
+Arrival of participants to [Doña Lola hotel](http://www.hoteldonalola.com/)
+
+### Day 2 (1 June 2022, Wednesday)
+
+**Facilitators**: Vicent Beltrán Palanques, Carlos Granell
+
+**Meeting room**: Espaitec2, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM), 2nd floor.
+
+**Morning session** 
+
+9:00 - 10:00 Welcome and logistics (Carlos)
+
+Coffee break
+
+10:30 - 13:30 Topic: Three-minute thesis presentations (3MTP)  
+
+-	Academic spoken genres and multimodality 
+
+-	Three-Minute Thesis Presentations: The genre, characteristics, and structure. 
+
+-	Preparation of Three-Minute Thesis Presentations 
+
+**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   
+
+**Afternoon session**
+
+15:00 - 17:00 Participants' presentations and discussion (2 hours)
+
+**Dinner** at TBC 
+
+
+### Day 3 (2 June 2022, Thursday)
+
+**Facilitators**: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), Carlos Granell
+
+**Meeting room**: School of Sciences, [TD0112FR](http://smart.uji.es/index.php?room=TD0112FR), 1st floor. 
+
+
+**Morning session** 
+
+Topic: what are reproducibility/replicability and how to ensure it
+
+
+**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   
+
+**Afternoon session** 
+
+-   reproducible plan exercise
+
+-   peer assessment
+
+**Dinner** at TBC 
+
+### Day 4 (3 June 2022, Friday)
+
+**Facilitators**: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), Carlos Granell
+
+**Meeting room**: Espaitec2, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM), 2nd floor.
+
+**Morning session** 
+
+-   Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code, 
+
+-   Presentations: take-away message of each participant (reproducible plan, etc)
+
+-   Closing remarks
+
+**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   

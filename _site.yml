@@ -2,9 +2,23 @@ name: "agilephdschool2022"
 title: "AGILE PhD School 2022"
 description: |
   AGILE PhD School 2022
+base_url: https://geotecinit.github.io/agilephdschool2022/
 output_dir: "docs"
+creative_commons: CC BY
 navbar:
-  right:
+  logo:
+    image: assets/agile_logo_new.svg
+    href: https://agile-online.org/
+  left:
     - text: "Home"
       href: index.html
-output: distill::distill_article
+  right:
+    - text: "Reproducible Research @ AGILE"
+      href: index.html
+
+
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    toc_depth: 3
