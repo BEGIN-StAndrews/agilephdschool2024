@@ -108,11 +108,11 @@ Lunch at *Restaurante Agora* in campus
 
 **Morning session** 
 
-9:00 - 10:30 Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code, 
+9:00 - 10:30 Group discussion: what open science means for participants' work, what concerns they have, barriers to openness, etc.
 
 Coffee break
 
-11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc) 
+11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc.) 
 
 13:00 - 13:30 Closing remarks
 
