@@ -1,7 +1,7 @@
 ---
-title: "AGILE PhD School 2022"
+title: "6th AGILE PhD School 2022"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  *Make your work more open and reproducible*
 site: distill::distill_website
 ---
 
@@ -28,7 +28,8 @@ meta() %>%
 ```
 
 
-**6th AGILE PhD School 2022** - *Make your work more open and reproducible*
+
+![](assets/cathedralcastellondelaplananight.jpg)
 
 June 1st – 3rd 2022, [Institute of New Imaging Technologies](https://www.init.uji.es/?lang=en), Universitat Jaume I, Castellón (Spain)
 
@@ -41,19 +42,21 @@ The AGILE PhD school aims to bring PhD students from different countries togethe
 
 ## Programme
 
+*Note: timetable is indicative. Details in progress*
+
 ### Day 1 (31 May 2022, Tuesday) 
 
-Arrival of participants to [Doña Lola hotel](http://www.hoteldonalola.com/)
+Arrival of participants. Accommodation: [Doña Lola hotel](http://www.hoteldonalola.com/)
 
 ### Day 2 (1 June 2022, Wednesday)
 
-**Facilitators**: Vicent Beltrán Palanques, Carlos Granell
+*Facilitators*: [Vicent Beltrán Palanques](http://www.grape.uji.es/wordpress/language/en/vicent-beltran-palanques/), [Carlos Granell](http://carlosgranell.eu/)
 
-**Meeting room**: Espaitec2, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM), 2nd floor.
+*Meeting room*: Espaitec2 building, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM) room, 2nd floor.
 
 **Morning session** 
 
-9:00 - 10:00 Welcome and logistics (Carlos)
+9:00 - 10:00 Welcome and logistics
 
 Coffee break
 
@@ -65,49 +68,62 @@ Coffee break
 
 -	Preparation of Three-Minute Thesis Presentations 
 
-**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   
+Lunch at *Restaurante Agora* in campus   
 
 **Afternoon session**
 
-15:00 - 17:00 Participants' presentations and discussion (2 hours)
+15:00 - 17:00 Participants' presentations and discussion
 
-**Dinner** at TBC 
+**Dinner** at **TBC** in Castellón
 
 
 ### Day 3 (2 June 2022, Thursday)
 
-**Facilitators**: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), Carlos Granell
+*Facilitators*: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), [Carlos Granell](http://carlosgranell.eu/)
 
-**Meeting room**: School of Sciences, [TD0112FR](http://smart.uji.es/index.php?room=TD0112FR), 1st floor. 
+*Meeting room*: School of Experimental Sciences, [TD0112FR](http://smart.uji.es/index.php?room=TD0112FR) room, 1st floor. 
 
 
 **Morning session** 
 
-Topic: what are reproducibility/replicability and how to ensure it
+9:00 - 10:00 Reproducible Research @ AGILE
 
+Coffee break at *Cafe Dels Sentits* in campus
 
-**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   
+10:30 - 13:30  Topic: what are reproducibility/replicability and how to ensure it
+
+Lunch at *Restaurante Agora* in campus   
 
 **Afternoon session** 
 
--   reproducible plan exercise
+15:00 - 17:00 Reproducible plan exercise & peer assessment
 
--   peer assessment
-
-**Dinner** at TBC 
+**Dinner** at TBC in Castellón 
 
 ### Day 4 (3 June 2022, Friday)
 
-**Facilitators**: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), Carlos Granell
+*Facilitators*: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), [Carlos Granell](http://carlosgranell.eu/)
 
-**Meeting room**: Espaitec2, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM), 2nd floor.
+*Meeting room*: Espaitec2 building, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM) room, 2nd floor.
 
 **Morning session** 
 
--   Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code, 
+9:00 - 10:30 Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code, 
 
--   Presentations: take-away message of each participant (reproducible plan, etc)
+Coffee break
 
--   Closing remarks
+11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc) 
 
-**13:30 - 15:00, Lunch break** at *Restaurante Agora* in campus   
+13:00 - 13:30 Closing remarks
+
+Lunch at *Restaurante Agora* in campus   
+
+
+## Sponsors
+
+
+[![](assets/agile_logo_new.svg)](https://agile-online.org/)
+
+[![](assets/marca-uji-color.jpg){width=700}](https://www.uji.es/departaments/lsi/)
+
+

@@ -85,30 +85,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>AGILE PhD School 2022</title>
+  <title>AGILE PhD School 2022: 6th AGILE PhD School 2022</title>
 
-  <meta property="description" itemprop="description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="description" itemprop="description" content="*Make your work more open and reproducible*"/>
 
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="AGILE PhD School 2022"/>
+  <meta property="og:title" content="AGILE PhD School 2022: 6th AGILE PhD School 2022"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="og:description" content="*Make your work more open and reproducible*"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="AGILE PhD School 2022"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="AGILE PhD School 2022"/>
-  <meta property="twitter:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="twitter:title" content="AGILE PhD School 2022: 6th AGILE PhD School 2022"/>
+  <meta property="twitter:description" content="*Make your work more open and reproducible*"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["AGILE PhD School 2022"]},{"type":"character","attributes":{},"value":["Welcome to the website. I hope you enjoy it!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["6th AGILE PhD School 2022"]},{"type":"character","attributes":{},"value":["*Make your work more open and reproducible*\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2032,6 +2032,337 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">/* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+  @import url('https://fonts.googleapis.com/css2?family=');
+  @import url('https://fonts.googleapis.com/css2?family=Lato');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Martel');
+
+  :root {
+    --primary-color: rgba(18, 119, 167, 1) /* #1277A7; https://color-hex.org/color/1277a7*/
+  }
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    "Martel", sans-serif;
+    --mono-font:       monospace;
+    --body-font:       "Lato", "Roboto", sans-serif;
+    --navbar-font:     "Raleway", sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       var(--primary-color); /*rgba(255, 255, 255, 0.8);*/
+    --text-size:        15px;
+    --hover-color:      black;
+    --bkgd-color:       white; /*#0F2E3D;*/
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      rgba(0, 0, 0, 1);
+    --bkgd-color:       var(--primary-color); /* #0F2E3D;*/
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+
+  p a { /* underlines links with --primary-color */
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid var(--primary-color);
+    box-shadow: inset 0 -1px 0 var(--primary-color);
+    background: transparent;
+    transition: background 150ms ease;
+  }
+
+  p a:hover { /* makes links go --primary-color on hover */
+    text-decoration: none;
+    --bg-opacity:       0.3;
+    background-color: rgba(18, 119, 167, var(--bg-opacity));
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
   <meta name="github-repo" content="GeoTecINIT/agilephdschool2022"/>
@@ -2061,7 +2392,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"AGILE PhD School 2022","description":"Welcome to the website. I hope you enjoy it!","authors":[]}
+{"title":"6th AGILE PhD School 2022","description":"*Make your work more open and reproducible*","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2070,13 +2401,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a class="logo" href="https://agile-online.org/">
-<img src="assets/agile_logo_new.svg" alt="Logo"/>
+<img src="https://agile-online.org/templates/agile_modern_1/images/designer/e148f83f7b0950ca073743f2182cd3e4_favicon_agile.ico" alt="Logo"/>
 </a>
 <a href="index.html" class="title">AGILE PhD School 2022</a>
 <a href="index.html">Home</a>
 </div>
 <div class="nav-right">
-<a href="index.html">Reproducible Research @ AGILE</a>
+<a href="https://reproducible-agile.github.io/">Reproducible Research @ AGILE</a>
+<a href="https://agile-online.org/">AGILE Association</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2086,10 +2418,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>AGILE PhD School 2022</h1>
+<h1>6th AGILE PhD School 2022</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Welcome to the website. I hope you enjoy it!</p></p>
+<p><p><em>Make your work more open and reproducible</em></p></p>
 </div>
 
 
@@ -2105,13 +2437,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#day-3-2-june-2022-thursday">Day 3 (2 June 2022, Thursday)</a></li>
 <li><a href="#day-4-3-june-2022-friday">Day 4 (3 June 2022, Friday)</a></li>
 </ul></li>
+<li><a href="#sponsors">Sponsors</a></li>
 </ul>
 </nav>
 </div>
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<p><strong>6th AGILE PhD School 2022</strong> - <em>Make your work more open and reproducible</em></p>
+<p><img src="assets/cathedralcastellondelaplananight.jpg" /></p>
 <p>June 1st – 3rd 2022, <a href="https://www.init.uji.es/?lang=en">Institute of New Imaging Technologies</a>, Universitat Jaume I, Castellón (Spain)</p>
 <p>The AGILE PhD school aims to bring PhD students from different countries together. The purpose of the school is to offer a platform for PhD students to present their research to date, exchange ideas, learn and discuss geospatial methods and acquire and improve skills related to geoinformatics. This will allow participants to:</p>
 <ul>
@@ -2123,13 +2456,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li>be exposed to the reproducibility and reproducibility practices in Geoscience and GIScience.</li>
 </ul>
 <h2 id="programme">Programme</h2>
+<p><em>Note: timetable is indicative. Details in progress</em></p>
 <h3 id="day-1-31-may-2022-tuesday">Day 1 (31 May 2022, Tuesday)</h3>
-<p>Arrival of participants to <a href="http://www.hoteldonalola.com/">Doña Lola hotel</a></p>
+<p>Arrival of participants. Accommodation: <a href="http://www.hoteldonalola.com/">Doña Lola hotel</a></p>
 <h3 id="day-2-1-june-2022-wednesday">Day 2 (1 June 2022, Wednesday)</h3>
-<p><strong>Facilitators</strong>: Vicent Beltrán Palanques, Carlos Granell</p>
-<p><strong>Meeting room</strong>: Espaitec2, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a>, 2nd floor.</p>
+<p><em>Facilitators</em>: <a href="http://www.grape.uji.es/wordpress/language/en/vicent-beltran-palanques/">Vicent Beltrán Palanques</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
+<p><em>Meeting room</em>: Espaitec2 building, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room, 2nd floor.</p>
 <p><strong>Morning session</strong></p>
-<p>9:00 - 10:00 Welcome and logistics (Carlos)</p>
+<p>9:00 - 10:00 Welcome and logistics</p>
 <p>Coffee break</p>
 <p>10:30 - 13:30 Topic: Three-minute thesis presentations (3MTP)</p>
 <ul>
@@ -2137,32 +2471,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><p>Three-Minute Thesis Presentations: The genre, characteristics, and structure.</p></li>
 <li><p>Preparation of Three-Minute Thesis Presentations</p></li>
 </ul>
-<p><strong>13:30 - 15:00, Lunch break</strong> at <em>Restaurante Agora</em> in campus</p>
+<p>Lunch at <em>Restaurante Agora</em> in campus</p>
 <p><strong>Afternoon session</strong></p>
-<p>15:00 - 17:00 Participants’ presentations and discussion (2 hours)</p>
-<p><strong>Dinner</strong> at TBC</p>
+<p>15:00 - 17:00 Participants’ presentations and discussion</p>
+<p><strong>Dinner</strong> at <strong>TBC</strong> in Castellón</p>
 <h3 id="day-3-2-june-2022-thursday">Day 3 (2 June 2022, Thursday)</h3>
-<p><strong>Facilitators</strong>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, Carlos Granell</p>
-<p><strong>Meeting room</strong>: School of Sciences, <a href="http://smart.uji.es/index.php?room=TD0112FR">TD0112FR</a>, 1st floor.</p>
+<p><em>Facilitators</em>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
+<p><em>Meeting room</em>: School of Experimental Sciences, <a href="http://smart.uji.es/index.php?room=TD0112FR">TD0112FR</a> room, 1st floor.</p>
 <p><strong>Morning session</strong></p>
-<p>Topic: what are reproducibility/replicability and how to ensure it</p>
-<p><strong>13:30 - 15:00, Lunch break</strong> at <em>Restaurante Agora</em> in campus</p>
+<p>9:00 - 10:00 Reproducible Research @ AGILE</p>
+<p>Coffee break at <em>Cafe Dels Sentits</em> in campus</p>
+<p>10:30 - 13:30 Topic: what are reproducibility/replicability and how to ensure it</p>
+<p>Lunch at <em>Restaurante Agora</em> in campus</p>
 <p><strong>Afternoon session</strong></p>
-<ul>
-<li><p>reproducible plan exercise</p></li>
-<li><p>peer assessment</p></li>
-</ul>
-<p><strong>Dinner</strong> at TBC</p>
+<p>15:00 - 17:00 Reproducible plan exercise &amp; peer assessment</p>
+<p><strong>Dinner</strong> at TBC in Castellón</p>
 <h3 id="day-4-3-june-2022-friday">Day 4 (3 June 2022, Friday)</h3>
-<p><strong>Facilitators</strong>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, Carlos Granell</p>
-<p><strong>Meeting room</strong>: Espaitec2, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a>, 2nd floor.</p>
+<p><em>Facilitators</em>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
+<p><em>Meeting room</em>: Espaitec2 building, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room, 2nd floor.</p>
 <p><strong>Morning session</strong></p>
-<ul>
-<li><p>Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code,</p></li>
-<li><p>Presentations: take-away message of each participant (reproducible plan, etc)</p></li>
-<li><p>Closing remarks</p></li>
-</ul>
-<p><strong>13:30 - 15:00, Lunch break</strong> at <em>Restaurante Agora</em> in campus</p>
+<p>9:00 - 10:30 Group discussion: what open science means for their work, what concerns they have, barriers to openness like feeling unsure about the quality of their work/code,</p>
+<p>Coffee break</p>
+<p>11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc)</p>
+<p>13:00 - 13:30 Closing remarks</p>
+<p>Lunch at <em>Restaurante Agora</em> in campus</p>
+<h2 id="sponsors">Sponsors</h2>
+<p><a href="https://agile-online.org/"><img src="assets/agile_logo_new.svg" /></a></p>
+<p><a href="https://www.uji.es/departaments/lsi/"><img src="assets/marca-uji-color.jpg" width="700" /></a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

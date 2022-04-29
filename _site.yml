@@ -5,16 +5,19 @@ description: |
 base_url: https://geotecinit.github.io/agilephdschool2022/
 output_dir: "docs"
 creative_commons: CC BY
+theme: assets/theme-phdschool.css
 navbar:
   logo:
-    image: assets/agile_logo_new.svg
+    image: https://agile-online.org/templates/agile_modern_1/images/designer/e148f83f7b0950ca073743f2182cd3e4_favicon_agile.ico
     href: https://agile-online.org/
   left:
     - text: "Home"
       href: index.html
   right:
     - text: "Reproducible Research @ AGILE"
-      href: index.html
+      href: https://reproducible-agile.github.io/
+    - text: "AGILE Association"
+      href: https://agile-online.org/
 
 
 output:
