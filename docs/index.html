@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -49,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -72,17 +74,18 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>AGILE PhD School 2022: 6th AGILE PhD School 2022</title>
@@ -455,7 +458,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1027,10 +1030,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1862,7 +1861,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -1873,6 +1881,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1972,6 +2005,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1994,7 +2029,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2364,7 +2399,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <meta name="github-repo" content="GeoTecINIT/agilephdschool2022"/>
   <meta name="twitter:title" content="AGILE PhD School 2022"/>
   <meta name="twitter:url" content="https://geotecinit.github.io/agilephdschool2022/"/>
@@ -2435,10 +2470,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><a href="#programme">Programme</a>
 <ul>
-<li><a href="#day-1-31-may-2022-tuesday">Day 1 (31 May 2022, Tuesday)</a></li>
-<li><a href="#day-2-1-june-2022-wednesday">Day 2 (1 June 2022, Wednesday)</a></li>
-<li><a href="#day-3-2-june-2022-thursday">Day 3 (2 June 2022, Thursday)</a></li>
-<li><a href="#day-4-3-june-2022-friday">Day 4 (3 June 2022, Friday)</a></li>
+<li><a href="#day-1-31-may-2022-tuesday">Day 1 (31 May 2022,
+Tuesday)</a></li>
+<li><a href="#day-2-1-june-2022-wednesday">Day 2 (1 June 2022,
+Wednesday)</a></li>
+<li><a href="#day-3-2-june-2022-thursday">Day 3 (2 June 2022,
+Thursday)</a></li>
+<li><a href="#day-4-3-june-2022-friday">Day 4 (3 June 2022,
+Friday)</a></li>
 </ul></li>
 <li><a href="#sponsors">Sponsors</a></li>
 </ul>
@@ -2448,60 +2487,96 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </div>
 <p><img src="assets/cathedralcastellondelaplananight.jpg" /></p>
-<p>June 1st – 3rd 2022, <a href="https://www.init.uji.es/?lang=en">Institute of New Imaging Technologies</a>, Universitat Jaume I, Castellón (Spain)</p>
-<p>The AGILE PhD school aims to bring PhD students from different countries together. The purpose of the school is to offer a platform for PhD students to present their research to date, exchange ideas, learn and discuss geospatial methods and acquire and improve skills related to geoinformatics. This will allow participants to:</p>
+<p>June 1st – 3rd 2022, <a
+href="https://www.init.uji.es/?lang=en">Institute of New Imaging
+Technologies</a>, Universitat Jaume I, Castellón (Spain)</p>
+<p>The AGILE PhD school aims to bring PhD students from different
+countries together. The purpose of the school is to offer a platform for
+PhD students to present their research to date, exchange ideas, learn
+and discuss geospatial methods and acquire and improve skills related to
+geoinformatics. This will allow participants to:</p>
 <ul>
-<li>be exposed to the diversity of fields and common features of our domain<br />
+<li>be exposed to the diversity of fields and common features of our
+domain<br />
 </li>
 <li>exchange ideas about the PhD process itself<br />
 </li>
 <li>develop their own network</li>
-<li>be exposed to the reproducibility and reproducibility practices in Geoscience and GIScience.</li>
+<li>be exposed to the reproducibility and reproducibility practices in
+Geoscience and GIScience.</li>
 </ul>
 <h2 id="programme">Programme</h2>
 <p><em>Note: timetable is indicative. Details in progress</em></p>
 <h3 id="day-1-31-may-2022-tuesday">Day 1 (31 May 2022, Tuesday)</h3>
-<p>Arrival of participants. Accommodation: <a href="http://www.hoteldonalola.com/">Doña Lola hotel</a></p>
+<p>Arrival of participants. Accommodation: <a
+href="http://www.hoteldonalola.com/">Doña Lola hotel</a></p>
 <h3 id="day-2-1-june-2022-wednesday">Day 2 (1 June 2022, Wednesday)</h3>
-<p><em>Facilitators</em>: <a href="http://www.grape.uji.es/wordpress/language/en/vicent-beltran-palanques/">Vicent Beltrán Palanques</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
-<p><em>Meeting room</em>: Espaitec2 building, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room, 2nd floor.</p>
+<p><em>Facilitators</em>: <a
+href="http://www.grape.uji.es/wordpress/language/en/vicent-beltran-palanques/">Vicent
+Beltrán Palanques</a>, <a href="http://carlosgranell.eu/">Carlos
+Granell</a></p>
+<p><em>Meeting room</em>: Espaitec2 building, <a
+href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room,
+2nd floor.</p>
 <p><strong>Morning session</strong></p>
 <p>9:00 - 10:00 Welcome and logistics</p>
 <p>Coffee break</p>
 <p>10:30 - 13:30 Topic: Three-minute thesis presentations (3MTP)</p>
 <ul>
 <li><p>Academic spoken genres and multimodality</p></li>
-<li><p>Three-Minute Thesis Presentations: The genre, characteristics, and structure.</p></li>
+<li><p>Three-Minute Thesis Presentations: The genre, characteristics,
+and structure.</p></li>
 <li><p>Preparation of Three-Minute Thesis Presentations</p></li>
 </ul>
 <p>Lunch at <em>Restaurante Agora</em> in campus</p>
 <p><strong>Afternoon session</strong></p>
 <p>15:00 - 17:00 Participants’ presentations and discussion</p>
-<p><strong>Dinner</strong> at <strong>TBC</strong> in Castellón</p>
+<p>20:45 <strong>Dinner</strong> at <a
+href="https://www.latagliatella.es/restaurantes/castellon/castellon">La
+Tagliatella</a> in Castellón. <a
+href="https://www.google.es/maps/place/Restaurante+La+Tagliatella+%7C+Castell%C3%B3n+de+la+Plana/@39.9827341,-0.0327887,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd5d85a58cd:0xaa3bd611c1e568cd!8m2!3d39.9827341!4d-0.0327887">Location</a></p>
 <h3 id="day-3-2-june-2022-thursday">Day 3 (2 June 2022, Thursday)</h3>
-<p><em>Facilitators</em>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
-<p><em>Meeting room</em>: School of Experimental Sciences, <a href="http://smart.uji.es/index.php?room=TD0112FR">TD0112FR</a> room, 1st floor.</p>
+<p><em>Facilitators</em>: <a
+href="https://research.utwente.nl/en/persons/frank-ostermann">Frank
+Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
+<p><em>Meeting room</em>: School of Experimental Sciences, <a
+href="http://smart.uji.es/index.php?room=TD0112FR">TD0112FR</a> room,
+1st floor.</p>
 <p><strong>Morning session</strong></p>
 <p>9:00 - 10:00 Reproducible Research @ AGILE</p>
 <p>Coffee break at <em>Cafe Dels Sentits</em> in campus</p>
-<p>10:30 - 13:30 Topic: what are reproducibility/replicability and how to ensure it</p>
+<p>10:30 - 13:30 Topic: what are reproducibility/replicability and how
+to ensure it</p>
 <p>Lunch at <em>Restaurante Agora</em> in campus</p>
 <p><strong>Afternoon session</strong></p>
 <p>15:00 - 17:00 Reproducible plan exercise &amp; peer assessment</p>
-<p><strong>Dinner</strong> at TBC in Castellón</p>
+<p>Begining at 19:30, <strong>chat, craft beers &amp; dinner</strong> at
+<a href="https://www.thetemplebarcastellon.com/">The Temple Bar</a> in
+Castellón. <a
+href="https://www.google.es/maps/place/Temple+Smash+Burger/@39.9860844,-0.0330139,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd6d25bbd95:0x7eca84b89ede24dc!8m2!3d39.9860803!4d-0.0308252">Location</a></p>
 <h3 id="day-4-3-june-2022-friday">Day 4 (3 June 2022, Friday)</h3>
-<p><em>Facilitators</em>: <a href="https://research.utwente.nl/en/persons/frank-ostermann">Frank Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
-<p><em>Meeting room</em>: Espaitec2 building, <a href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room, 2nd floor.</p>
+<p><em>Facilitators</em>: <a
+href="https://research.utwente.nl/en/persons/frank-ostermann">Frank
+Ostermann</a>, <a href="http://carlosgranell.eu/">Carlos Granell</a></p>
+<p><em>Meeting room</em>: Espaitec2 building, <a
+href="http://smart.uji.es/index.php?room=UB1206SM">UB1206SM</a> room,
+2nd floor.</p>
 <p><strong>Morning session</strong></p>
-<p>9:00 - 10:30 Group discussion: what open science means for participants’ work, what concerns they have, barriers to openness, etc.</p>
+<p>9:00 - 10:30 Group discussion: what open science means for
+participants’ work, what concerns they have, barriers to openness,
+etc.</p>
 <p>Coffee break</p>
-<p>11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc.)</p>
+<p>11:00 - 13:00 Presentations: take-away message of each participant
+(reproducible plan, etc.)</p>
 <p>13:00 - 13:30 Closing remarks</p>
 <p>Lunch at <em>Restaurante Agora</em> in campus</p>
 <h2 id="sponsors">Sponsors</h2>
-<p><a href="https://agile-online.org/"><img src="assets/agile_logo_new.svg" /></a></p>
-<p><a href="https://www.uji.es/departaments/lsi/"><img src="assets/marca-uji-color.jpg" width="700" /></a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p><a href="https://agile-online.org/"><img
+src="assets/agile_logo_new.svg" /></a></p>
+<p><a href="https://www.uji.es/departaments/lsi/"><img
+src="assets/marca-uji-color.jpg" width="700" /></a></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
