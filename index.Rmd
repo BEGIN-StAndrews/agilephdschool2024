@@ -103,11 +103,11 @@ Begining at 19:30,  **chat, craft beers & dinner** at [The Temple Bar](https://w
 
 **Morning session**
 
-9:00 - 10:30 Group discussion: what open science means for participants' work, what concerns they have, barriers to openness, etc.
+9:00 - 10:30 Pick-up on reproducibility plans & Open Science 
 
 Coffee break
 
-11:00 - 13:00 Presentations: take-away message of each participant (reproducible plan, etc.)
+11:00 - 13:00 Group debate (in favour _vs._ against) on open science & reproducibility impact in early-stage researchers: what they mean for participants' work, what concerns they have, barriers to openness, what works, arguments in support, arguments against, etc.
 
 13:00 - 13:30 Closing remarks
 
