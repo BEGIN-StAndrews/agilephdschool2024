@@ -103,13 +103,25 @@ Begining at 19:30,  **chat, craft beers & dinner** at [The Temple Bar](https://w
 
 **Morning session**
 
-9:00 - 10:30 Pick-up on reproducibility plans & Open Science 
+Main activity is a Group Debate (in favour _vs._ against) on open science & reproducibility impact in early-stage researchers: what they mean for participants' work, what concerns they have, barriers to openness, what works, arguments in support, arguments against, etc.
+
+9:30 - 10:00 Short recap of open and reproducible research & Open Science 
+
+10:00 - 10:30 Group wor: debate preparation
 
 Coffee break
 
-11:00 - 13:00 Group debate (in favour _vs._ against) on open science & reproducibility impact in early-stage researchers: what they mean for participants' work, what concerns they have, barriers to openness, what works, arguments in support, arguments against, etc.
+11:00 - 11:15 group work: debate preparation
 
-13:00 - 13:30 Closing remarks
+11:15 - 11:35 debate and Q&A
+
+11:35 - 11:55 group work: rebuttals, counterarguments)
+
+11:55 - 12:15 debate
+
+12:15 - 12:45 feedback on reproducible plans,
+
+12:45 - 13:00 Closing remarks
 
 Lunch at *Restaurante Agora* in campus
 
