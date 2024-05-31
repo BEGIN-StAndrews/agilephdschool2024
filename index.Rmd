@@ -30,8 +30,8 @@ meta() %>%
 
 ![](assets/cathedralcastellondelaplananight.jpg)
 
-November 27th to 29th 2024, at the Universitat Jaume I, Castellón de la
-Plana (Spain)
+**November 27th to 29th 2024,** at the **Universitat Jaume I, Castellón
+de la Plana** (Spain)
 
 The AGILE PhD school is designed to connect PhD students from various
 countries. Its goal is to provide a forum for PhD students to showcase
@@ -48,17 +48,64 @@ Participation in the school will enable attendees to:
 
 ## Why to participate?
 
-Attending the AGILE PhD School offers a great opportunity for PhD students within the European GIScience community. Ideally for PhD students in their second year or nearing their dissertation. The school aims to foster strong community academic connections, where participants will benefit from valuable insights shared by former AGILE PhD School alumni. 
+Attending the AGILE PhD School offers a great opportunity for PhD
+students within the European GIScience community. Ideally for PhD
+students in their second year or nearing their dissertation. The school
+aims to foster strong community academic connections, where participants
+will benefit from valuable insights shared by former AGILE PhD School
+alumni.
 
-In this ocasion, we have prepared an agenda to not only enhance students' scientific writing skills but also deepen their understanding of GeoAI research. The AGILE PhD school provides a platform for the students to amplify the impact of their ongoing research through direct engagement with the AGILE community, get new ideas, seek feedback about current preliminary results and share experience about the PhD journey.
+On this ocasion, we have prepared an agenda to not only enhance
+students' scientific writing skills but also deepen their understanding
+of GeoAI research. The AGILE PhD school provides a platform for the
+students to amplify the impact of their ongoing research through direct
+engagement with the AGILE community, get new ideas, seek feedback about
+current preliminary results and share experience about the PhD journey.
 
 ## Where will take place?
 
-The 7th edition of the AGILE PhD school will take place in Castellón de la Plana, Spain. Situated between the beautiful Mediterranean Sea and the stunning Sierra de Espadán mountains, Castellón provides an inspiring backdrop for any academic retreat. Come and experience Spanish hospitality, delicious cuisine, and vibrant local culture while collaborating with fellow researchers.
+The 7th edition of the AGILE PhD school will take place in Castellón de
+la Plana, Spain. Situated between the beautiful Mediterranean Sea and
+the stunning Sierra de Espadán mountains. The school will be hosted at
+the University Jaume I, by the support of the [Geospatial Research
+Group - GeoTec](https://geotec.uji.es/). Submit your abstract and apply
+to be part of this AGILE PhD School edition.
 
 ![](assets/venue.png)
 
-## Programme.
+## How to apply
+
+To join the AGILE PhD School 2024, prospective participants are required
+to submit a 300 to 500-word abstract summarizing their current research.
+This abstract may include preliminary results and highlight the
+relevance of your work to the main topic of the AGILE PhD School: GeoAI
+for the Social Good.
+
+-   Submit your abstract to:
+    [Fernando.Benitez\@st-andrews.ac.uk](mailto:Fernando.Benitez@st-andrews.ac.u).
+-   Submission Deadline: August 27, 2024
+
+Your submission will be evaluated based on the clarity of your research,
+the significance of your preleminary findings, and their potential
+impact on the field of GeoAI. We look forward to receiving your
+abstracts and welcoming you to an enriching academic experience.
+
+### Formatting instructions
+
+Abstracts must be prepared using either the Word Document template or
+the LaTeX Document template provided at
+<https://www.agile-giscience-series.net/agile-giss-templates.html>.
+Abstracts must be written in English according to the formatting
+guidelines. Note: Latex recommended editor: Overleaf.
+
+### Financial support
+
+Financial assistance is available to selected participants. While we
+wish we could provide grants to all applicants, the number of grants is
+limited, and participants may receive a certain amount of financial
+support. More details will be provided to the selected participants.
+
+## Programme
 
 *Note: timetable is indicative. Details in progress*
 
@@ -135,9 +182,7 @@ outcomes.
     Continuation of the morning brainstomring and drafting the paper
     idea based on the keynote speakers tools, methods and suggestions.
 
--   Begining at 19:30, **chat, craft beers & dinner** at [The Temple
-    Bar](https://www.thetemplebarcastellon.com/) in Castellón.
-    [Location](https://www.google.es/maps/place/Temple+Smash+Burger/@39.9860844,-0.0330139,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd6d25bbd95:0x7eca84b89ede24dc!8m2!3d39.9860803!4d-0.0308252)
+-   Dinner: TBD
 
 ### Day 4: Final presentations and closing remarks
 
@@ -168,15 +213,21 @@ the use or integration of keynote speakers' tools, methods or ideas.
 
 ## Organizing Commitee
 
--   [Carlos Granell](http://carlosgranell.eu/) - University Jaime I, Spain
--   [Alina Ristea](https://www.linkedin.com/in/risteaalina) - UCL, The UK
--   [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/) - University of Twente, Netherlands 
--   [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) - University of Glasgow, The UK
--   [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/) - University of St Andrews, The UK
+-   [Carlos Granell](http://carlosgranell.eu/) - University Jaime I,
+    Spain
+-   [Alina Ristea](https://www.linkedin.com/in/risteaalina) - UCL, The
+    UK
+-   [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/) -
+    University of Twente, Netherlands
+-   [Diego
+    Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
+    University of Glasgow, The UK
+-   [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/) -
+    University of St Andrews, The UK
 
+## Sponsors
 
-## Sponsors 
-
+```{=html}
 <style>
 .custom-image {
   width: 300px;
@@ -184,20 +235,19 @@ the use or integration of keynote speakers' tools, methods or ideas.
   margin: 0 10px;
 }
 </style>
-
+```
+```{=html}
 <style>
 .lead-image {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 0 10px;
 }
 </style>
-
-<img src="assets/agile_logo_new.svg" alt="image" class="lead-image">
-<img src="assets/marca-uji-color.jpg" alt="image" class="custom-image">
-<img src="assets/01-foundation-black-text.png" alt="image" class="custom-image">
-<img src="assets/Uni_Glasgow_1.jpg" alt="image" class="custom-image">
-<img src="assets/UCL_logo.png" alt="image" class="custom-image">
-<img src="assets/logo-stacked.png" alt="image" class="custom-image">
-
-
+```
+<img src="assets/agile_logo_new.svg" alt="image" class="lead-image"/>
+<img src="assets/marca-uji-color.jpg" alt="image" class="custom-image"/>
+<img src="assets/01-foundation-black-text.png" alt="image" class="custom-image"/>
+<img src="assets/Uni_Glasgow_1.jpg" alt="image" class="custom-image"/>
+<img src="assets/UCL_logo.png" alt="image" class="custom-image"/>
+<img src="assets/logo-stacked.png" alt="image" class="custom-image"/>
