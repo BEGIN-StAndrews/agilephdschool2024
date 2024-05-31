@@ -1,9 +1,9 @@
 name: "agilephdschool2024"
 title: "AGILE PhD School 2024"
 description: |
-  AGILE PhD School 2024
-base_url: https://geotecinit.github.io/agilephdschool2022/
-repository_url: https://github.com/GeoTecINIT/agilephdschool2022
+  7th Edition: GeoAI for the Social Good
+base_url: https://begin-standrews.github.io/agilephdschool2024/
+repository_url: https://github.com/BEGIN-StAndrews/agilephdschool2024
 output_dir: "docs"
 creative_commons: CC BY
 theme: assets/theme-phdschool.css

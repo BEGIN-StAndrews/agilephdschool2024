@@ -28,14 +28,14 @@ meta() %>%
 
 ![](assets/cathedralcastellondelaplananight.jpg)
 
-November 27th to 29th, 2024, at the Universitat Jaume I, Castellón (Spain)
+November 27th to 29th 2024, at the Universitat Jaume I, Castellón de la Plana (Spain)
 
 The AGILE PhD school is designed to connect PhD students from various countries. Its goal is to provide a forum for PhD students to showcase their research progress, exchange ideas, engage in discussions on geospatial methods, and enhance their geoinformatics-related skills. 
 
 Participation in the school will enable attendees to:
 
 -   Be exposed to the diversity of fields and common features of our domain
--   Exchange ideas about the PhD process itself\
+-   Exchange ideas about the PhD process itself
 -   Develop their network
 -   Be exposed to the reproducibility practices in the GIScience field.                                                                                                                                                   
 
@@ -43,92 +43,89 @@ Participation in the school will enable attendees to:
 
 *Note: timetable is indicative. Details in progress*
 
-### Day 1 (31 May 2022, Tuesday)
+### Day 1: Arrival to the Venue
+#### Tuesday, November 26th 2024
 
 Arrival of participants. Accommodation: [Doña Lola hotel](http://www.hoteldonalola.com/)
 
-### Day 2 (1 June 2022, Wednesday)
+### Day 2: Welcoming and Fundamental Academic Skills
+#### Wednesday, November 27th 2024
 
-*Facilitators*: [Vicent Beltrán Palanques](http://www.grape.uji.es/wordpress/language/en/vicent-beltran-palanques/), [Carlos Granell](http://carlosgranell.eu/)
+*Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina), [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/), [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/), [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
-*Meeting room*: Espaitec2 building, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM) room, 2nd floor.
+*Meeting room*: TBD
 
 **Morning session**
 
-9:00 - 10:00 Welcome and logistics
-
-Coffee break
-
-10:30 - 13:30 Topic: Three-minute thesis presentations (3MTP)
-
--   Academic spoken genres and multimodality
-
--   Three-Minute Thesis Presentations: The genre, characteristics, and structure.
-
--   Preparation of Three-Minute Thesis Presentations
-
-Lunch at *Restaurante Agora* in campus
+- 09:00 - 10:00 - Intro and welcoming
+- Coffee break
+- 10:30 - 13:30 ECR Panel Discussion – What does that mean to be a PhD Student (The joy and the struggles)
+- Lunch at *Restaurante Agora* in campus
 
 **Afternoon session**
 
-15:00 - 17:00 Participants' presentations and discussion
+- 15:00 - 16:00 - Three-minute abstract presentations by participants
+- 16:00 - 17:00 - Scientific paper - The basic structure
+- 21:00  **Dinner** TBD
 
-20:45 **Dinner** at [La Tagliatella](https://www.latagliatella.es/restaurantes/castellon/castellon) in Castellón. [Location](https://www.google.es/maps/place/Restaurante+La+Tagliatella+%7C+Castell%C3%B3n+de+la+Plana/@39.9827341,-0.0327887,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd5d85a58cd:0xaa3bd611c1e568cd!8m2!3d39.9827341!4d-0.0327887)
+## Day 3: GeoAI for the Social Good
+### Thursday, November 28th 2024
 
-### Day 3 (2 June 2022, Thursday)
+*Facilitators*: *Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina), [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/), [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/), [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
-*Facilitators*: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), [Carlos Granell](http://carlosgranell.eu/)
-
-*Meeting room*: School of Experimental Sciences, [TD0112FR](http://smart.uji.es/index.php?room=TD0112FR) room, 1st floor.
+*Meeting room*: TBD
 
 **Morning session**
 
-9:00 - 10:00 Reproducible Research \@ AGILE
+- 09:00 - 10:00 Keynote Speaker No 1 – Anita Graser
+- 10:00 - 11:00 - Post-Keynote Discussion and Brainstorming: Participants should form goups to brainstorm potential research questions or projects using GeoAI and open-source tools, guided by the insights from the keynote.
 
-Coffee break at *Cafe Dels Sentits* in campus
+Each group selects one research proposal/idea and outlines how to enhance it using the tools and methods discussed.
+Outcome requiered: Develop a preliminary outline or draft of a potential journal paper, highlighting the problem, Research Question, methodology, and expected outcomes. 
 
-10:30 - 13:30 Topic: what are reproducibility/replicability and how to ensure it
+- Coffee break
 
-Lunch at *Restaurante Agora* in campus
+- 11:30 - 13:30 - Post-Keynote Discussion and Brainstorming,
+
+- Lunch at *Restaurante Agora* in campus
 
 **Afternoon session**
 
-15:00 - 17:00 Reproducible plan exercise & peer assessment
+- 15:00 - 16:00 - Keynote Speaker No 2 – TBD
 
-Begining at 19:30,  **chat, craft beers & dinner** at [The Temple Bar](https://www.thetemplebarcastellon.com/) in Castellón. [Location](https://www.google.es/maps/place/Temple+Smash+Burger/@39.9860844,-0.0330139,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd6d25bbd95:0x7eca84b89ede24dc!8m2!3d39.9860803!4d-0.0308252)
+- 16:00 - 18:00 - Post-Keynote Discussion and Brainstorming: Continuation of the morning brainstomring and drafting the paper idea based on the keynote speakers tools, methods and suggestions.
 
-### Day 4 (3 June 2022, Friday)
+- Begining at 19:30,  **chat, craft beers & dinner** at [The Temple Bar](https://www.thetemplebarcastellon.com/) in Castellón. [Location](https://www.google.es/maps/place/Temple+Smash+Burger/@39.9860844,-0.0330139,17z/data=!3m1!4b1!4m5!3m4!1s0xd5fffd6d25bbd95:0x7eca84b89ede24dc!8m2!3d39.9860803!4d-0.0308252)
 
-*Facilitators*: [Frank Ostermann](https://research.utwente.nl/en/persons/frank-ostermann), [Carlos Granell](http://carlosgranell.eu/)
 
-*Meeting room*: Espaitec2 building, [UB1206SM](http://smart.uji.es/index.php?room=UB1206SM) room, 2nd floor.
+## Day 4: Final presentations and closing remarks
+### Friday, November 29th 2024
+
+*Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina), [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/), [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/), [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
+
+*Meeting room*: TBD
 
 **Morning session**
 
-Main activity is a Group Debate (in favour _vs._ against) on open science & reproducibility impact in early-stage researchers: what they mean for participants' work, what concerns they have, barriers to openness, what works, arguments in support, arguments against, etc.
+- 10:00 - 11:00 Open Science and Reproducibility – The Turing Way
+- Coffee break
+- 11:30 - 13:00: Final Presentation and Feedback Session:
 
-9:30 - 10:00 Short recap of open and reproducible research & Open Science 
+Based on the previous brainstroming sessions, and the progress with the drafted ideas, groups should prepare a brief presentation (max 3 slide) of their enhanced research proposal or draft journal paper, emphasizing the use or integration of keynote speakers' tools, methods or ideas.
 
-10:00 - 10:30 Group wor: debate preparation
+- 13:00 - 13:30 Closing remarks
 
-Coffee break
+- Lunch at *Restaurante Agora* in campus
 
-11:00 - 11:15 group work: debate preparation
+## Organizing Commitee
 
-11:15 - 11:35 debate and Q&A
-
-11:35 - 11:55 group work: rebuttals, counterarguments)
-
-11:55 - 12:15 debate
-
-12:15 - 12:45 feedback on reproducible plans,
-
-12:45 - 13:00 Closing remarks
-
-Lunch at *Restaurante Agora* in campus
+- [Carlos Granell](http://carlosgranell.eu/)
+- [Alina Ristea](https://www.linkedin.com/in/risteaalina)
+- [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/)
+- [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/)
+- [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
 ## Sponsors
-
 
 <style>
   .logo-grid {
