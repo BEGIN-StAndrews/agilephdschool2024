@@ -1,7 +1,7 @@
 ---
-title: "6th AGILE PhD School 2022"
-description: |
-  *Make your work more open and reproducible*
+title: "AGILE PhD School 2024"
+subtitle: "7th Edition: GeoAI for the Social Good"
+
 site: distill::distill_website
 ---
 
@@ -19,25 +19,27 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r meta, echo=FALSE}
 library(metathis)
 meta() %>%
-  meta_name("github-repo" = "GeoTecINIT/agilephdschool2022") %>%
+  meta_name("github-repo" = "BEGIN-StAndrews/agilephdschool2024") %>%
   meta_social(
-    title = "AGILE PhD School 2022",
-    url ="https://geotecinit.github.io/agilephdschool2022/"
+    title = "AGILE PhD School 2024",
+    url ="https://github.com/BEGIN-StAndrews/agilephdschool2024"
   )
 ```
 
 ![](assets/cathedralcastellondelaplananight.jpg)
 
-June 1st -- 3rd 2022, [Institute of New Imaging Technologies](https://www.init.uji.es/?lang=en), Universitat Jaume I, Castellón (Spain)
+November 27th to 29th, 2024, at the Universitat Jaume I, Castellón (Spain)
 
-The AGILE PhD school aims to bring PhD students from different countries together. The purpose of the school is to offer a platform for PhD students to present their research to date, exchange ideas, learn and discuss geospatial methods and acquire and improve skills related to geoinformatics. This will allow participants to:
+The AGILE PhD school is designed to connect PhD students from various countries. Its goal is to provide a forum for PhD students to showcase their research progress, exchange ideas, engage in discussions on geospatial methods, and enhance their geoinformatics-related skills. 
 
--   be exposed to the diversity of fields and common features of our domain\
--   exchange ideas about the PhD process itself\
--   develop their own network
--   be exposed to the reproducibility and reproducibility practices in Geoscience and GIScience.
+Participation in the school will enable attendees to:
 
-## Programme
+-   Be exposed to the diversity of fields and common features of our domain
+-   Exchange ideas about the PhD process itself\
+-   Develop their network
+-   Be exposed to the reproducibility practices in the GIScience field.                                                                                                                                                   
+
+## Programme. 
 
 *Note: timetable is indicative. Details in progress*
 
@@ -127,6 +129,30 @@ Lunch at *Restaurante Agora* in campus
 
 ## Sponsors
 
-[![](assets/agile_logo_new.svg)](https://agile-online.org/)
 
-[![](assets/marca-uji-color.jpg){width="700"}](https://www.uji.es/departaments/lsi/)
+<style>
+  .logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+  }
+  .logo-grid img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="logo-grid">
+  <a href="https://agile-online.org/">
+    <img src="assets/agile_logo_new.svg" alt="AGILE Logo">
+  </a>
+  <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/">
+    <img src="assets/01-foundation-black-text.png" alt="St Andrews Logo">
+  </a>
+  <a href="https://www.uji.es/departaments/lsi/">
+    <img src="assets/marca-uji-color.jpg" alt="UJI Logo">
+  </a>
+</div>
+
