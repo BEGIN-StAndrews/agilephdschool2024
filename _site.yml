@@ -1,7 +1,6 @@
 name: "agilephdschool2024"
 title: "AGILE PhD School 2024"
-description: |
-  7th Edition: GeoAI for the Social Good
+description: "7th Edition: GeoAI for the Social Good"
 base_url: https://begin-standrews.github.io/agilephdschool2024/
 repository_url: https://github.com/BEGIN-StAndrews/agilephdschool2024
 output_dir: "docs"
