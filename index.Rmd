@@ -55,19 +55,19 @@ aims to foster strong community academic connections, where participants
 will benefit from valuable insights shared by former AGILE PhD School
 alumni.
 
-On this ocasion, we have prepared an agenda to not only enhance
+We have prepared an agenda to not only enhance
 students' scientific writing skills but also deepen their understanding
 of GeoAI research. The AGILE PhD school provides a platform for the
 students to amplify the impact of their ongoing research through direct
-engagement with the AGILE community, get new ideas, seek feedback about
-current preliminary results and share experience about the PhD journey.
+engagement with the AGILE community, get new ideas, and seek feedback about
+current preliminary results and share experiences about the PhD journey.
 
-## Where will take place?
+## Where will it take place?
 
 The 7th edition of the AGILE PhD school will take place in Castellón de
 la Plana, Spain. Situated between the beautiful Mediterranean Sea and
 the stunning Sierra de Espadán mountains. The school will be hosted at
-the University Jaume I, by the support of the [Geospatial Research
+the University Jaume I, with the support of the [Geospatial Research
 Group - GeoTec](https://geotec.uji.es/). Submit your abstract and apply
 to be part of this AGILE PhD School edition.
 
@@ -75,9 +75,9 @@ to be part of this AGILE PhD School edition.
 
 ## How to apply
 
-To join the AGILE PhD School 2024, prospective participants are required
-to submit a 300 to 500-word abstract summarizing their current research.
-This abstract may include preliminary results and highlight the
+To join the AGILE PhD School 2024, participants are required
+to submit a 300 to 500-word abstract summarising their ongoing research.
+The abstract may include preliminary results and highlight the
 relevance of your work to the main topic of the AGILE PhD School: GeoAI
 for the Social Good.
 
@@ -86,9 +86,8 @@ for the Social Good.
 -   Submission Deadline: August 27, 2024
 
 Your submission will be evaluated based on the clarity of your research,
-the significance of your preleminary findings, and their potential
-impact on the field of GeoAI. We look forward to receiving your
-abstracts and welcoming you to an enriching academic experience.
+the significance of your preliminary findings, and their potential
+impact on the field of GeoAI.
 
 ### Formatting instructions
 
@@ -100,14 +99,13 @@ guidelines. Note: Latex recommended editor: Overleaf.
 
 ### Financial support
 
-Financial assistance is available to selected participants. While we
-wish we could provide grants to all applicants, the number of grants is
-limited, and participants may receive a certain amount of financial
-support. More details will be provided to the selected participants.
+Financial assistance is available to the selected participants. While we
+wish we could cover all the related expenses, our budget is
+limited, and participants may be required to contribute. More details will be provided to the selected participants.
 
 ## Programme
 
-*Note: timetable is indicative. Details in progress*
+*Note: the timetable is indicative. Details in progress*
 
 ### Day 1: Arrival to the Venue
 
