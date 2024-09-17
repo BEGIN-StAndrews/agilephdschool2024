@@ -159,23 +159,23 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
     Graser](https://anitagraser.com/) ( [Austrian Institute of
     Technology](http://www.ait.ac.at/) in Vienna):
 
-    +--------------------------------------------------------------------+
-    | ![](assets/anita.png){width="150"}                                 |
-    |                                                                    |
-    | **Mobility Data Science in the Age of AI**                         |
-    |                                                                    |
-    | A computer can never be held accountable, therefore a computer     |
-    | must never make a management decision.” (IBM 1979)                 |
-    |                                                                    |
-    | The current AI hype, driven by generative AI and particularly      |
-    | large language models (LLMs), is creating excitement, fear, and    |
-    | inflated expectations. In this talk, I will argue that to          |
-    | transform this hype into sustainable and positive development, we  |
-    | need to find ways to empower people to take control of their own   |
-    | assistive AI technology. To achieve this, spatial data science in  |
-    | general, and mobility data science in particular, must up their    |
-    | game and embrace open-source development and collaboration.        |
-    +--------------------------------------------------------------------+
+    +-------------------------------------------------------------------+
+    | ![](assets/anita.png){width="150"}                                |
+    |                                                                   |
+    | **Mobility Data Science in the Age of AI**                        |
+    |                                                                   |
+    | A computer can never be held accountable, therefore a computer    |
+    | must never make a management decision.” (IBM 1979)                |
+    |                                                                   |
+    | The current AI hype, driven by generative AI and particularly     |
+    | large language models (LLMs), is creating excitement, fear, and   |
+    | inflated expectations. In this talk, I will argue that to         |
+    | transform this hype into sustainable and positive development, we |
+    | need to find ways to empower people to take control of their own  |
+    | assistive AI technology. To achieve this, spatial data science in |
+    | general, and mobility data science in particular, must up their   |
+    | game and embrace open-source development and collaboration.       |
+    +-------------------------------------------------------------------+
 
 -   10:00 - 11:00 - Post-Keynote Discussion and Brainstorming:
     Participants should form groups to brainstorm potential research
@@ -270,9 +270,6 @@ the use or integration of keynote speakers' tools, methods or ideas.
 }
 </style>
 ```
-<img src="assets/agile_logo_new.svg" alt="image" class="lead-image"/>
+![image](assets/agile_logo.svg){.lead-image alt="image"}
 <img src="assets/marca-uji-color.jpg" alt="image" class="custom-image"/>
 <img src="assets/01-foundation-black-text.png" alt="image" class="custom-image"/>
-<img src="assets/Uni_Glasgow_1.jpg" alt="image" class="custom-image"/>
-<img src="assets/UCL_logo.png" alt="image" class="custom-image"/>
-<img src="assets/UZH-Logo.png" alt="image" class="custom-image"/>
