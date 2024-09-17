@@ -55,12 +55,12 @@ aims to foster strong community academic connections, where participants
 will benefit from valuable insights shared by former AGILE PhD School
 alumni.
 
-We have prepared an agenda to not only enhance
-students' scientific writing skills but also deepen their understanding
-of GeoAI research. The AGILE PhD school provides a platform for the
-students to amplify the impact of their ongoing research through direct
-engagement with the AGILE community, get new ideas, and seek feedback about
-current preliminary results and share experiences about the PhD journey.
+We have prepared an agenda to not only enhance students' scientific
+writing skills but also deepen their understanding of GeoAI research.
+The AGILE PhD school provides a platform for the students to amplify the
+impact of their ongoing research through direct engagement with the
+AGILE community, get new ideas, and seek feedback about current
+preliminary results and share experiences about the PhD journey.
 
 ## Where will it take place?
 
@@ -75,15 +75,15 @@ to be part of this AGILE PhD School edition.
 
 ## How to apply
 
-To join the AGILE PhD School 2024, participants are required
-to submit a 300 to 500-word abstract summarising their ongoing research.
-The abstract may include preliminary results and highlight the
-relevance of your work to the main topic of the AGILE PhD School: GeoAI
-for the Social Good.
+To join the AGILE PhD School 2024, participants are required to submit a
+300 to 500-word abstract summarising their ongoing research. The
+abstract may include preliminary results and highlight the relevance of
+your work to the main topic of the AGILE PhD School: GeoAI for the
+Social Good.
 
 -   Submit your abstract to:
-    [Fernando.Benitez@st-andrews.ac.uk](mailto:Fernando.Benitez@st-andrews.ac.uk).
--   Submission Deadline: **August 27, 2024**
+    [Fernando.Benitez\@st-andrews.ac.uk](mailto:Fernando.Benitez@st-andrews.ac.uk).
+-   Submission Deadline: ~~**August 27, 2024**~~
 
 Your submission will be evaluated based on the clarity of your research,
 the significance of your preliminary findings, and their potential
@@ -100,8 +100,9 @@ guidelines. Note: Latex recommended editor: Overleaf.
 ### Financial support
 
 Financial assistance is available to the selected participants. While we
-wish we could cover all the related expenses, our budget is
-limited, and participants may be required to contribute. More details will be provided to the selected participants.
+wish we could cover all the related expenses, our budget is limited, and
+participants may be required to contribute. More details will be
+provided to the selected participants.
 
 ## Programme
 
@@ -138,15 +139,15 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 
 -   15:00 - 16:00 - Three-minute abstract presentations by participants
 -   16:00 - 17:00 - Scientific paper - The basic structure
--   20:00  - Dinner -  TBD
+-   20:00 - Dinner - TBD
 
 ### Day 3: GeoAI for the Social Good
 
 #### Thursday, November 28th 2024
 
-*Facilitators*: *Facilitators*: [Alina
-Ristea](https://www.linkedin.com/in/risteaalina), [Hoda
-Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/), [Diego
+*Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina),
+[Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/),
+[Diego
 Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
@@ -154,14 +155,35 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 
 **Morning session**
 
--   09:00 - 10:00 Keynote Speaker No 1 – Anita Graser
+-   09:00 - 10:00 Keynote Speaker No 1 – [Anita
+    Graser](https://anitagraser.com/) ( [Austrian Institute of
+    Technology](http://www.ait.ac.at/) in Vienna):
+
+    +--------------------------------------------------------------------+
+    | ![](assets/anita.png){width="150"}                                 |
+    |                                                                    |
+    | **Mobility Data Science in the Age of AI**                         |
+    |                                                                    |
+    | A computer can never be held accountable, therefore a computer     |
+    | must never make a management decision.” (IBM 1979)                 |
+    |                                                                    |
+    | The current AI hype, driven by generative AI and particularly      |
+    | large language models (LLMs), is creating excitement, fear, and    |
+    | inflated expectations. In this talk, I will argue that to          |
+    | transform this hype into sustainable and positive development, we  |
+    | need to find ways to empower people to take control of their own   |
+    | assistive AI technology. To achieve this, spatial data science in  |
+    | general, and mobility data science in particular, must up their    |
+    | game and embrace open-source development and collaboration.        |
+    +--------------------------------------------------------------------+
+
 -   10:00 - 11:00 - Post-Keynote Discussion and Brainstorming:
-    Participants should form goups to brainstorm potential research
-    questions or projects using GeoAI and open-source tools, guided by
+    Participants should form groups to brainstorm potential research
+    questions or projects using Geo AI and open-source tools, guided by
     the insights from the keynote.
 
 Each group selects one research proposal/idea and outlines how to
-enhance it using the tools and methods discussed. Outcome requiered:
+enhance it using the tools and methods discussed. Outcome required:
 Develop a preliminary outline or draft of a potential journal paper,
 highlighting the problem, Research Question, methodology, and expected
 outcomes.
@@ -174,10 +196,15 @@ outcomes.
 
 **Afternoon session**
 
--   15:00 - 16:00 - Keynote Speaker No 2 – TBD
+-   15:00 - 16:00 - Keynote Speaker No 2 – [Joao Porto de Albuquerque -
+    Professor in Urban Analytics (Urban Studies & Social Policy)
+    University of
+    Glasgow](https://www.gla.ac.uk/schools/socialpolitical/staff/joaoportodealbuquerque/)
+
+    ![](assets/joao.jpg){width="150"}
 
 -   16:00 - 18:00 - Post-Keynote Discussion and Brainstorming:
-    Continuation of the morning brainstomring and drafting the paper
+    Continuation of the morning brainstorming and drafting the paper
     idea based on the keynote speakers tools, methods and suggestions.
 
 -   20:00 - Dinner: TBD
@@ -200,7 +227,7 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 -   Coffee break
 -   11:30 - 13:00: Final Presentation and Feedback Session:
 
-Based on the previous brainstroming sessions, and the progress with the
+Based on the previous brainstorming sessions, and the progress with the
 drafted ideas, groups should prepare a brief presentation (max 3 slide)
 of their enhanced research proposal or draft journal paper, emphasizing
 the use or integration of keynote speakers' tools, methods or ideas.
@@ -217,7 +244,8 @@ the use or integration of keynote speakers' tools, methods or ideas.
     UK
 -   [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/) -
     University of Zurich, Switzerland
--   [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
+-   [Diego
+    Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
     University of Glasgow, The UK
 -   [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/) -
     University of St Andrews, The UK
