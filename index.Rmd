@@ -215,8 +215,7 @@ outcomes.
 
 *Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina),
 [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/),
-[Diego
-Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
+[Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
 *Meeting room*: TBD
@@ -244,8 +243,7 @@ the use or integration of keynote speakers' tools, methods or ideas.
     UK
 -   [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/) -
     University of Zurich, Switzerland
--   [Diego
-    Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
+-   [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
     University of Glasgow, The UK
 -   [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/) -
     University of St Andrews, The UK
@@ -273,3 +271,4 @@ the use or integration of keynote speakers' tools, methods or ideas.
 ![image](assets/agile_logo.svg){.lead-image alt="image"}
 <img src="assets/marca-uji-color.jpg" alt="image" class="custom-image"/>
 <img src="assets/01-foundation-black-text.png" alt="image" class="custom-image"/>
+<img src="assets/valencia.png" alt="image" class="custom-image"/>
