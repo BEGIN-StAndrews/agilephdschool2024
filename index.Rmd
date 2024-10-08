@@ -75,7 +75,8 @@ to be part of this AGILE PhD School edition.
 
 ## How to apply
 
-> The call to submit abstract has finished and the candidates were already selected, please keep an eye on the next AGILE PhD School. 
+> The call to submit abstract has finished and the candidates were
+> already selected, please keep an eye on the next AGILE PhD School.
 
 To join the AGILE PhD School 2024, participants are required to submit a
 300 to 500-word abstract summarising their ongoing research. The
@@ -106,6 +107,66 @@ wish we could cover all the related expenses, our budget is limited, and
 participants may be required to contribute. More details will be
 provided to the selected participants.
 
+
+## Keynote Speakers
+
++-----------------------------------------+-------------------------------------------+
+| ### **Anita Graser**                    |                                           |
++=========================================+===========================================+
+| ![](assets/anita.png)                   | Is a spatial data scientist, open source  |
+|                                         | GIS advocate, and author with a           |
+|                                         | background in geographic information      |
+|                                         | science. She is currently Senior          |
+|                                         | Scientist at AIT - The Austrian Institute |
+|                                         | of Technology in Vienna. She serves on    |
+|                                         | the QGIS project steering committee and   |
+|                                         | has published several books about QGIS.   |
+|                                         | Furthermore, she develops tools, such as  |
+|                                         | the popular MovingPandas. Her             |
+|                                         | contributions include developing QGIS     |
+|                                         | plugins, writing user-friendly tutorials, |
+|                                         | and authoring books such as "Learning     |
+|                                         | QGIS" and "QGIS Map Design." Anita also   |
+|                                         | runs a widely-followed blog, [Free and    |
+|                                         | Open Source GIS Rambl                     |
+|                                         | ings](https://anitagraser.com/), where    |
+|                                         | she shares insights and tutorials on      |
+|                                         | open-source GIS solutions.                |
++-----------------------------------------+-------------------------------------------+
+| ### Prof. João Porto de Albuquerque     |                                           |
++-----------------------------------------+-------------------------------------------+
+| ![](assets/joao.jpg)                    | Is Professor in Urban Analytics at Urban  |
+|                                         | Studies in the School of Social and       |
+|                                         | Political Sciences at the University      |
+|                                         | of Glasgow and Deputy Director of the     |
+|                                         | [Urban Big Data Centre (                  |
+|                                         | UBDC)](https://www.ubdc.ac.uk/), where he |
+|                                         | leads the "[Urban Sustainability and      |
+|                                         | Partic                                    |
+|                                         | ipation](htt%20ps://www.ubdc.ac.u%20k/re% |
+|                                         | 20search/%20research-projects?topic=U%20r |
+|                                         | ban+Su%20stainability+%26+Participation)" |
+|                                         | theme. Professor Porto de Albuquerque is  |
+|                                         | a geographer and computer scientist with  |
+|                                         | an interdisciplinary background who       |
+|                                         | conducts research on geographic           |
+|                                         | information and urban sustainability,     |
+|                                         | focusing on addressing inequalities in    |
+|                                         | data and society. His work cuts across    |
+|                                         | the borders between social and computing  |
+|                                         | sciences, as well as between the global   |
+|                                         | South and the global North. His           |
+|                                         | pioneering and award-winning approach     |
+|                                         | to **participatory urban analytics**      |
+|                                         | combines participatory methods (e.g.,     |
+|                                         | citizen science, participatory GIS,       |
+|                                         | action research, participatory software   |
+|                                         | design) and geo-computational data        |
+|                                         | science.                                  |
++-----------------------------------------+-------------------------------------------+
+
+------------------------------------------------------------------------
+
 ## Programme
 
 *Note: the timetable is indicative. Details in progress*
@@ -127,8 +188,9 @@ hotel](http://www.hoteldonalola.com/)
 Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
-*Meeting room*: [NB0003CC room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC), Edificio de Investigación II, NB, Universitat Jaume I
-
+*Meeting room*: [NB0003CC
+room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC),
+Edificio de Investigación II, NB, Universitat Jaume I
 
 **Morning session**
 
@@ -142,7 +204,7 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 
 -   15:00 - 16:00 - Three-minute abstract presentations by participants
 -   16:00 - 17:00 - Scientific paper - The basic structure
--   20:00 - Dinner 
+-   20:00 - Dinner
 
 ### Day 3: GeoAI for the Social Good
 
@@ -154,31 +216,31 @@ Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
-*Meeting room*: [NB0003CC room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC), Edificio de Investigación II, NB, Universitat Jaume I
+*Meeting room*: [NB0003CC
+room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC),
+Edificio de Investigación II, NB, Universitat Jaume I
 
 **Morning session**
 
--   09:00 - 10:00 Keynote Speaker No 1 – [Anita
+-   09:00 - 10:00 [Anita
     Graser](https://anitagraser.com/) ( [Austrian Institute of
     Technology](http://www.ait.ac.at/) in Vienna):
 
-    +-------------------------------------------------------------------+
-    | ![](assets/anita.png){width="150"}                                |
-    |                                                                   |
-    | **Mobility Data Science in the Age of AI**                        |
-    |                                                                   |
-    | A computer can never be held accountable, therefore a computer    |
-    | must never make a management decision.” (IBM 1979)                |
-    |                                                                   |
-    | The current AI hype, driven by generative AI and particularly     |
-    | large language models (LLMs), is creating excitement, fear, and   |
-    | inflated expectations. In this talk, I will argue that to         |
-    | transform this hype into sustainable and positive development, we |
-    | need to find ways to empower people to take control of their own  |
-    | assistive AI technology. To achieve this, spatial data science in |
-    | general, and mobility data science in particular, must up their   |
-    | game and embrace open-source development and collaboration.       |
-    +-------------------------------------------------------------------+
+    +-----------------------------------------------------------------------+
+    | ### Mobility Data Science in the Age of AI.                           |
+    |                                                                       |
+    | A computer can never be held accountable, therefore a computer must   |
+    | never make a management decision.” (IBM 1979)                         |
+    |                                                                       |
+    | The current AI hype, driven by generative AI and particularly large   |
+    | language models (LLMs), is creating excitement, fear, and inflated    |
+    | expectations. In this talk, I will argue that to transform this hype  |
+    | into sustainable and positive development, we need to find ways to    |
+    | empower people to take control of their own assistive AI technology.  |
+    | To achieve this, spatial data science in general, and mobility data   |
+    | science in particular, must up their game and embrace open-source     |
+    | development and collaboration.                                        |
+    +-----------------------------------------------------------------------+
 
 -   10:00 - 11:00 - Post-Keynote Discussion and Brainstorming:
     Participants should form groups to brainstorm potential research
@@ -199,12 +261,32 @@ outcomes.
 
 **Afternoon session**
 
--   15:00 - 16:00 - Keynote Speaker No 2 – [Joao Porto de Albuquerque -
+-   15:00 - 16:00 - [Prof. Joao Porto de Albuquerque -
     Professor in Urban Analytics (Urban Studies & Social Policy)
     University of
     Glasgow](https://www.gla.ac.uk/schools/socialpolitical/staff/joaoportodealbuquerque/)
 
-    ![](assets/joao.jpg){width="150"}
+    +-----------------------------------------------------------------------+
+    | ### Participatory Urban Analytics for Inclusive Data                  |
+    | ### Innovations and Artificial Intelligence: Enabling                 |
+    | ### Transformative Public Policy                                      |
+    |                                                                       |
+    | Data innovations and Artificial Intelligence have the potential to    |
+    | support cities in addressing the most pressing challenges posed by    |
+    | the current triple planetary emergency and its climate, ecology and   |
+    | social inequality dimensions. However, solutions built upon biased or |
+    | partial data will not address the required challenges, since they may |
+    | systematically misrepresent the realities of the most vulnerable      |
+    | communities. To overcome this, the talk introduces an approach        |
+    | to participatory urban analytics which bridges citizen participation  |
+    | and data science to address inequalities in data and society. Results |
+    | from this approach show significant social impacts in the context of  |
+    | resilience to flood and landslide disasters in Latin American         |
+    | disadvantaged communities (the Waterproofing Data and URBE Latam      |
+    | projects) and the improvement of access to urban infrastructure and   |
+    | services in informal settlements in Kenya and Nigeria (IDEAMAPS Data  |
+    | Ecosystem project).                                                   |
+    +-----------------------------------------------------------------------+
 
 -   16:00 - 18:00 - Post-Keynote Discussion and Brainstorming:
     Continuation of the morning brainstorming and drafting the paper
@@ -218,10 +300,13 @@ outcomes.
 
 *Facilitators*: [Alina Ristea](https://www.linkedin.com/in/risteaalina),
 [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/),
-[Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
+[Diego
+Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/),
 [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/)
 
-*Meeting room*: [NB0003CC room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC), Edificio de Investigación II, NB, Universitat Jaume I
+*Meeting room*: [NB0003CC
+room](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC),
+Edificio de Investigación II, NB, Universitat Jaume I
 
 **Morning session**
 
@@ -246,7 +331,8 @@ the use or integration of keynote speakers' tools, methods or ideas.
     UK
 -   [Hoda Bakhshi](https://www.linkedin.com/in/hoda-bakhshi-999a1a33/) -
     University of Zurich, Switzerland
--   [Diego Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
+-   [Diego
+    Pajarito](https://www.linkedin.com/in/diego-pajarito-grajales-26277232/) -
     University of Glasgow, The UK
 -   [Fernando Benitez-Paez](https://www.linkedin.com/in/mfbenitezp/) -
     University of St Andrews, The UK

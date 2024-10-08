@@ -19,6 +19,8 @@ navbar:
       href: https://reproducible-agile.github.io/
     - text: "AGILE Association"
       href: https://agile-online.org/
+    - text: "AGILE LinkedIn"
+      href: https://www.linkedin.com/company/association-of-geographic-information-laboratories-in-europe/
 
 
 output:
