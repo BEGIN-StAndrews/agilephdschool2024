@@ -73,41 +73,6 @@ to be part of this AGILE PhD School edition.
 
 ![](assets/venue.png)
 
-## How to apply
-
-> The call to submit abstract has finished and the candidates were
-> already selected, please keep an eye on the next AGILE PhD School.
-
-To join the AGILE PhD School 2024, participants are required to submit a
-300 to 500-word abstract summarising their ongoing research. The
-abstract may include preliminary results and highlight the relevance of
-your work to the main topic of the AGILE PhD School: GeoAI for the
-Social Good.
-
--   Submit your abstract to:
-    [Fernando.Benitez\@st-andrews.ac.uk](mailto:Fernando.Benitez@st-andrews.ac.uk).
--   Submission Deadline: ~~**August 27, 2024**~~
-
-Your submission will be evaluated based on the clarity of your research,
-the significance of your preliminary findings, and their potential
-impact on the field of GeoAI.
-
-### Formatting instructions
-
-Abstracts must be prepared using either the Word Document template or
-the LaTeX Document template provided at
-<https://www.agile-giscience-series.net/agile-giss-templates.html>.
-Abstracts must be written in English according to the formatting
-guidelines. Note: Latex recommended editor: Overleaf.
-
-### Financial support
-
-Financial assistance is available to the selected participants. While we
-wish we could cover all the related expenses, our budget is limited, and
-participants may be required to contribute. More details will be
-provided to the selected participants.
-
-
 ## Keynote Speakers
 
 +-----------------------------------------+-------------------------------------------+
@@ -170,7 +135,7 @@ provided to the selected participants.
 ## Selected Candidates
 
 ```{=html}
-<iframe src="https://storymaps.arcgis.com/stories/6a7281f6f5ad417eb3da70151a67bac2?cover=false" width="150%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+<iframe src="https://storymaps.arcgis.com/stories/6a7281f6f5ad417eb3da70151a67bac2?cover=false" width="100%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 ```
 
 
@@ -330,6 +295,42 @@ the use or integration of keynote speakers' tools, methods or ideas.
 
 -   Lunch at *Restaurante Agora* in campus
 
+
+## How to apply
+
+> The call to submit abstract has finished and the candidates were
+> already selected, please keep an eye on the next AGILE PhD School.
+
+To join the AGILE PhD School 2024, participants are required to submit a
+300 to 500-word abstract summarising their ongoing research. The
+abstract may include preliminary results and highlight the relevance of
+your work to the main topic of the AGILE PhD School: GeoAI for the
+Social Good.
+
+-   Submit your abstract to:
+    [Fernando.Benitez\@st-andrews.ac.uk](mailto:Fernando.Benitez@st-andrews.ac.uk).
+-   Submission Deadline: ~~**August 27, 2024**~~
+
+Your submission will be evaluated based on the clarity of your research,
+the significance of your preliminary findings, and their potential
+impact on the field of GeoAI.
+
+### Formatting instructions
+
+Abstracts must be prepared using either the Word Document template or
+the LaTeX Document template provided at
+<https://www.agile-giscience-series.net/agile-giss-templates.html>.
+Abstracts must be written in English according to the formatting
+guidelines. Note: Latex recommended editor: Overleaf.
+
+### Financial support
+
+Financial assistance is available to the selected participants. While we
+wish we could cover all the related expenses, our budget is limited, and
+participants may be required to contribute. More details will be
+provided to the selected participants.
+
+
 ## Organising Commitee
 
 -   [Carlos Granell](http://carlosgranell.eu/) - University Jaime I,
@@ -367,4 +368,4 @@ the use or integration of keynote speakers' tools, methods or ideas.
 ![image](assets/agile_logo.svg){.lead-image alt="image"}
 <img src="assets/marca-uji-color.jpg" alt="image" class="custom-image"/>
 <img src="assets/01-foundation-black-text.png" alt="image" class="custom-image"/>
-<img src="assets/valencia.png" alt="image" class="custom-image"/>
+<img src="assets/valencia.png" alt="image" class=".lead-image"/>
