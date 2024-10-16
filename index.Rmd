@@ -170,7 +170,7 @@ provided to the selected participants.
 ## Selected Candidates
 
 ```{=html}
-<iframe src="https://storymaps.arcgis.com/stories/6a7281f6f5ad417eb3da70151a67bac2" width="100%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+<iframe src="https://storymaps.arcgis.com/stories/6a7281f6f5ad417eb3da70151a67bac2?cover=false" width="150%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 ```
 
 
