@@ -143,6 +143,18 @@ to be part of this AGILE PhD School edition.
 
 *Note: the timetable is indicative. Details in progress*
 
+### Meeting room
+
+The school will take place at the University Jaume I, in the Buildong called: "Investigació II" Level 0 -   **NB0003CC** meeting room. Use the following map to locate where this room is located the hosted university.
+
+```{=html}
+
+<iframe src="https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC" width="100%" height="700px" frameborder="0"></iframe>
+
+```
+
+
+
 ### Day 1: Arrival to the Venue
 
 #### Tuesday, November 26th 2024
