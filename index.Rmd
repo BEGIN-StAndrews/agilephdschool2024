@@ -148,9 +148,9 @@ to be part of this AGILE PhD School edition.
 The school will take place at the University Jaume I, in the Building called: **"Investigació II"** --> Level 0 - **NB0003CC meeting room**. Use the following map to locate where this room is located inside the hosted university.
 
 ```{=html}
-<iframe src="https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3%2Ccodificacion%2CNB0003CC&marker=-0.0721513316559649%2C39.993023702881%2C%2C%2C%2C&markertemplate=%7B%22title%22%3A%22Investigaci%C3%B3%20II%22%2C%22longitude%22%3A-0.0721513316559649%2C%22latitude%22%3A39.993023702881%2C%22isIncludeShareUrl%22%3Atrue%7D&level=19" width="100%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
-```
+<iframe src="https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC" style="width:100%; height:600px; border:none;" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
+```
 
 
 
