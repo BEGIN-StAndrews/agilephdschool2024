@@ -75,62 +75,48 @@ to be part of this AGILE PhD School edition.
 
 ## Keynote Speakers
 
-+-----------------------------------------+-------------------------------------------+
-| ### **Anita Graser**                    |                                           |
-+=========================================+===========================================+
-| ![](assets/anita.png)                   | Is a spatial data scientist, open source  |
-|                                         | GIS advocate, and author with a           |
-|                                         | background in geographic information      |
-|                                         | science. She is currently Senior          |
-|                                         | Scientist at AIT - The Austrian Institute |
-|                                         | of Technology in Vienna. She serves on    |
-|                                         | the QGIS project steering committee and   |
-|                                         | has published several books about QGIS.   |
-|                                         | Furthermore, she develops tools, such as  |
-|                                         | the popular MovingPandas. Her             |
-|                                         | contributions include developing QGIS     |
-|                                         | plugins, writing user-friendly tutorials, |
-|                                         | and authoring books such as "Learning     |
-|                                         | QGIS" and "QGIS Map Design." Anita also   |
-|                                         | runs a widely-followed blog, [Free and    |
-|                                         | Open Source GIS Rambl                     |
-|                                         | ings](https://anitagraser.com/), where    |
-|                                         | she shares insights and tutorials on      |
-|                                         | open-source GIS solutions.                |
-+-----------------------------------------+-------------------------------------------+
-| ### Prof. João Porto de Albuquerque     |                                           |
-+-----------------------------------------+-------------------------------------------+
-| ![](assets/joao.jpg)                    | Is Professor in Urban Analytics at Urban  |
-|                                         | Studies in the School of Social and       |
-|                                         | Political Sciences at the University      |
-|                                         | of Glasgow and Deputy Director of the     |
-|                                         | [Urban Big Data Centre (                  |
-|                                         | UBDC)](https://www.ubdc.ac.uk/), where he |
-|                                         | leads the "[Urban Sustainability and      |
-|                                         | Partic                                    |
-|                                         | ipation](htt%20ps://www.ubdc.ac.u%20k/re% |
-|                                         | 20search/%20research-projects?topic=U%20r |
-|                                         | ban+Su%20stainability+%26+Participation)" |
-|                                         | theme. Professor Porto de Albuquerque is  |
-|                                         | a geographer and computer scientist with  |
-|                                         | an interdisciplinary background who       |
-|                                         | conducts research on geographic           |
-|                                         | information and urban sustainability,     |
-|                                         | focusing on addressinginequalities in    |
-|                                         | data and society. His work cuts across    |
-|                                         | the borders between social and computing  |
-|                                         | sciences, as well as between the global   |
-|                                         | South and the global North. His           |
-|                                         | pioneering and award-winning approach     |
-|                                         | to **participatory urban analytics**      |
-|                                         | combines participatory methods (e.g.,     |
-|                                         | citizen science, participatory GIS,       |
-|                                         | action research, participatory software   |
-|                                         | design) and geo-computational data        |
-|                                         | science.                                  |
-+-----------------------------------------+-------------------------------------------+
+### **Anita Graser**
 
-------------------------------------------------------------------------
+```{=html}
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <img src="assets/anita.png" alt="Anita Graser" style="width: 200px; margin-right: 20px;">
+    <div style="flex: 1;">
+        <p>
+            Is a spatial data scientist, open source GIS advocate, and author with a background in geographic information science. 
+            She is currently Senior Scientist at AIT - The Austrian Institute of Technology in Vienna. She serves on the QGIS project 
+            steering committee and has published several books about QGIS. Furthermore, she develops tools, such as the popular 
+            MovingPandas. Her contributions include developing QGIS plugins, writing user-friendly tutorials, and authoring books 
+            such as "Learning QGIS" and "QGIS Map Design." Anita also runs a widely-followed blog, 
+            <a href="https://anitagraser.com/" target="_blank">Free and Open Source GIS Ramblings</a>, where she shares insights 
+            and tutorials on open-source GIS solutions.
+        </p>
+    </div>
+</div>
+```
+
+### **Prof. João Porto de Albuquerque**
+
+```{=html}
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <img src="assets/joao.jpg" alt="Professor Porto de Albuquerque" style="width: 200px; margin-right: 20px;">
+    <div style="flex: 1;">
+        <p>
+            Is Professor in Urban Analytics at Urban Studies in the School of Social and Political Sciences at the University 
+            of Glasgow and Deputy Director of the <a href="https://www.ubdc.ac.uk/" target="_blank">Urban Big Data Centre (UBDC)</a>, 
+            where he leads the 
+            "<a href="https://www.ubdc.ac.uk/research/research-projects?topic=Urban+Sustainability+%26+Participation" target="_blank">
+            Urban Sustainability and Participation</a>" theme. Professor Porto de Albuquerque is a geographer and computer scientist 
+            with an interdisciplinary background who conducts research on geographic information and urban sustainability, focusing 
+            on addressing inequalities in data and society. His work cuts across the borders between social and computing sciences, 
+            as well as between the global South and the global North. His pioneering and award-winning approach to 
+            <strong>participatory urban analytics</strong> combines participatory methods (e.g., citizen science, participatory GIS, 
+            action research, participatory software design) and geo-computational data science.
+        </p>
+    </div>
+</div>
+
+```
+
 
 ## Selected Candidates
 
@@ -145,14 +131,7 @@ to be part of this AGILE PhD School edition.
 
 ### Meeting room
 
-The school will take place at the University Jaume I, in the Building called: **"Investigació II"** --> Level 0 - **NB0003CC meeting room**. Use the following map to locate where this room is located inside the hosted university.
-
-```{=html}
-<iframe src="https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC" style="width:100%; height:600px; border:none;" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-
-```
-
-
+The PhD school will take place at the University Jaume I, in the Building called: **"Investigació II"** --> Level 0 - **NB0003CC meeting room**. [Open GIS App Link](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC) Use the map to locate where meeting room is located inside the hosted university.
 
 ### Day 1: Arrival to the Venue
 
@@ -208,22 +187,18 @@ Edificio de Investigación II, NB, Universitat Jaume I
 -   09:00 - 10:00 [Anita
     Graser](https://anitagraser.com/) ( [Austrian Institute of
     Technology](http://www.ait.ac.at/) in Vienna):
+    
+```{=html}
+    <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+    <h3>Mobility Data Science in the Age of AI</h3>
+    <p> "A computer can never be held accountable, therefore a computer must never make a management decision." (IBM 1979)
+    </p>
+    <p> The current AI hype, driven by generative AI and particularly large language models (LLMs), is creating excitement, fear, and inflated expectations. In this talk, I will argue that to transform this hype into sustainable and positive development, we need to find ways to empower people to take control of their own assistive AI technology. To achieve this, spatial data science in general, and mobility data science in particular, must up their game and embrace open-source development and collaboration.
+    </p>
+</div>
 
-    +-----------------------------------------------------------------------+
-    | ### Mobility Data Science in the Age of AI.                           |
-    |                                                                       |
-    | A computer can never be held accountable, therefore a computer must   |
-    | never make a management decision.” (IBM 1979)                         |
-    |                                                                       |
-    | The current AI hype, driven by generative AI and particularly large   |
-    | language models (LLMs), is creating excitement, fear, and inflated    |
-    | expectations. In this talk, I will argue that to transform this hype  |
-    | into sustainable and positive development, we need to find ways to    |
-    | empower people to take control of their own assistive AI technology.  |
-    | To achieve this, spatial data science in general, and mobility data   |
-    | science in particular, must up their game and embrace open-source     |
-    | development and collaboration.                                        |
-    +-----------------------------------------------------------------------+
+```
+
 
 -   10:00 - 11:00 - Post-Keynote Discussion and Brainstorming:
     Participants should form groups to brainstorm potential research
@@ -248,28 +223,16 @@ outcomes.
     Professor in Urban Analytics (Urban Studies & Social Policy)
     University of
     Glasgow](https://www.gla.ac.uk/schools/socialpolitical/staff/joaoportodealbuquerque/)
+    
+```{=html}
 
-    +-----------------------------------------------------------------------+
-    | ### Participatory Urban Analytics for Inclusive Data                  |
-    | ### Innovations and Artificial Intelligence: Enabling                 |
-    | ### Transformative Public Policy                                      |
-    |                                                                       |
-    | Data innovations and Artificial Intelligence have the potential to    |
-    | support cities in addressing the most pressing challenges posed by    |
-    | the current triple planetary emergency and its climate, ecology and   |
-    | social inequality dimensions. However, solutions built upon biased or |
-    | partial data will not address the required challenges, since they may |
-    | systematically misrepresent the realities of the most vulnerable      |
-    | communities. To overcome this, the talk introduces an approach        |
-    | to participatory urban analytics which bridges citizen participation  |
-    | and data science to address inequalities in data and society. Results |
-    | from this approach show significant social impacts in the context of  |
-    | resilience to flood and landslide disasters in Latin American         |
-    | disadvantaged communities (the Waterproofing Data and URBE Latam      |
-    | projects) and the improvement of access to urban infrastructure and   |
-    | services in informal settlements in Kenya and Nigeria (IDEAMAPS Data  |
-    | Ecosystem project).                                                   |
-    +-----------------------------------------------------------------------+
+<div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+    <h3>Participatory Urban Analytics for Inclusive Data Innovations and Artificial Intelligence: Enabling Transformative Public Policy</h3>
+    
+    <p> Data innovations and Artificial Intelligence have the potential to support cities in addressing the most pressing challenges posed by the current triple planetary emergency and its climate, ecology, and social inequality dimensions. However, solutions built upon biased or partial data will not address the required challenges, since they may systematically misrepresent the realities of the most vulnerable communities. To overcome this, the talk introduces an approach to participatory urban analytics which bridges citizen participation and data science to address inequalities in data and society. Results from this approach show significant social impacts in the context of resilience to flood and landslide disasters in Latin American disadvantaged communities (the Waterproofing Data and URBE Latam projects) and the improvement of access to urban infrastructure and services in informal settlements in Kenya and Nigeria (IDEAMAPS Data Ecosystem project).
+    </p>
+</div>
+````
 
 -   16:00 - 18:00 - Post-Keynote Discussion and Brainstorming:
     Continuation of the morning brainstorming and drafting the paper
