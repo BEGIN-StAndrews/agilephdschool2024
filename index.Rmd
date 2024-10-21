@@ -68,10 +68,13 @@ The 7th edition of the AGILE PhD school will take place in Castellón de
 la Plana, Spain. Situated between the beautiful Mediterranean Sea and
 the stunning Sierra de Espadán mountains. The school will be hosted at
 the University Jaume I, with the support of the [Geospatial Research
-Group - GeoTec](https://geotec.uji.es/). Submit your abstract and apply
-to be part of this AGILE PhD School edition.
+Group - GeoTec](https://geotec.uji.es/).
 
-![](assets/venue.png)
+```{=html}
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <img src="assets/venue.png"style="width: 100%; margin-right: 20px;">
+</div>
+```
 
 ## Keynote Speakers
 
@@ -132,6 +135,13 @@ to be part of this AGILE PhD School edition.
 ### Meeting room
 
 The PhD school will take place at the University Jaume I, in the Building called: **"Investigació II"** --> Level 0 - **NB0003CC meeting room**. [Open GIS App Link](https://gis.uji.es/ujiapps/bessodigital/localitzacioespais/?query=1831cf62f4d-layer-3,codificacion,NB0003CC) Use the map to locate where meeting room is located inside the hosted university.
+
+
+```{=html}
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <img src="assets/routes.png"style="width: 100%; margin-right: 20px;">
+</div>
+```
 
 ### Day 1: Arrival to the Venue
 
