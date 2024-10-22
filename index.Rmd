@@ -71,9 +71,7 @@ the University Jaume I, with the support of the [Geospatial Research
 Group - GeoTec](https://geotec.uji.es/).
 
 ```{=html}
-<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
-    <img src="assets/venue.png"style="width: 100%; margin-right: 20px;">
-</div>
+<iframe src="https://uostandrews.maps.arcgis.com/apps/instant/basic/index.html?appid=edf6338814af456a9d52ccbab670f042" width="400" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
 ```
 
 ## Keynote Speakers
@@ -138,9 +136,7 @@ The PhD school will take place at the University Jaume I, in the Building called
 
 
 ```{=html}
-<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
-    <img src="assets/routes.png"style="width: 100%; margin-right: 20px;">
-</div>
+<iframe src="https://uostandrews.maps.arcgis.com/apps/instant/basic/index.html?appid=9c9cb0e412814157bac6ffd23346231b" width="400" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
 ```
 
 ### Day 1: Arrival to the Venue
