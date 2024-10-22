@@ -333,23 +333,66 @@ provided to the selected participants.
 
 ```{=html}
 <style>
-.custom-image {
-  width: 300px;
-  height: auto;
-  margin: 0 10px;
-}
-</style>
+        .sponsor-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .leader-sponsor {
+            grid-column: span 3;
+            text-align: center;
+        }
+
+        .second-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .logo {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 ```
+
 ```{=html}
-<style>
-.lead-image {
-  width: 90%;
-  height: auto;
-  margin: 0 10px;
-}
-</style>
-```
-![image](assets/agile_logo.svg){.lead-image alt="image"}
-<img src="assets/marca-uji-color.jpg" alt="image" class="custom-image"/>
-<img src="assets/01-foundation-black-text.png" alt="image" class="custom-image"/>
-<img src="assets/valencia.png" alt="image" class=".lead-image"/>
+
+<div class="sponsor-container">
+    <!-- First Row: Leader Sponsor -->
+    <div class="leader-sponsor logo">
+        <img src="assets/agile_logo.svg" alt="Leader Sponsor 1">
+    </div>
+
+    <!-- Second Row: Three Sponsors -->
+    <div class="second-row">
+        <div class="logo">
+            <img src="assets/marca-uji-color.jpg" alt="Sponsor 2">
+        </div>
+        <div class="logo">
+            <img src="assets/UStA_logo.png" alt="Sponsor 3">
+        </div>
+        <div class="logo">
+            <img src="assets/BEGIN_main.svg" alt="Sponsor 4">
+        </div>
+    </div>
+
+    <!-- Third Row: Leader Sponsor -->
+    <div class="leader-sponsor logo">
+        <img src="assets/valencia.png" alt="Leader Sponsor 2">
+    </div>
+</div>
+
+````
+
