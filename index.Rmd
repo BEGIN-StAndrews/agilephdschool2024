@@ -114,6 +114,19 @@ For the second time, the AGILE PhD school will be held in Castellon, which is si
 
 ```
 
+### **Rafael Verduzco Torres**
+
+```{=html}
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <img src="assets/rafael.jpg" alt="Rafael Torres" style="width: 200px; margin-right: 20px;">
+    <div style="flex: 1;">
+        <p>
+            Rafael is a Lecturer in Urban Analytics at the Division of Urban Studies and Social Policy. His work centres on the examination and potential applications of emerging forms of data and innovative methodologies to address urban mobility and transport research questions. He is particularly interested in the interactions between spatial accessibility, the urban economy, and social equity. Rafael contributes to teaching in the Urban Analytics and Urban Transport programmes and is also a member of the Urban Big Data Centre (UBDC), where he often collaborates with the Data Service in the development and curation of various datasets.
+        </p>
+    </div>
+</div>
+```
+
 
 ## Selected Candidates
 
@@ -260,8 +273,20 @@ Edificio de Investigación II, NB, Universitat Jaume I
 
 **Morning session**
 
--   10:00 - 11:00 Open Science and Reproducibility – The Turing Way
--   Coffee break
+-   10:00 - 11:00 - [Dr. Rafael Verduzco-Torres -
+    Lecturer in Urban Analytics, University of
+    Glasgow](https://www.gla.ac.uk/schools/socialpolitical/staff/joserafaelverduzcotorres) 
+    
+```{=html}
+
+<div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+    <h3>Open Science and Reproducibility</h3>
+    
+    <p>Reproducibility is a cornerstone of reliable research, allowing others to validate findings by following the same methods and data to achieve similar results. This talk will introduce the current landscape of open science and reproducibility within the field of GIScience. Specifically, it will guide doctoral students through the Agile Reproducibility Guidelines and essential resources to enhance the reproducibility of their own work. Additionally, it will introduce The Turing Way—a project, handbook, and community dedicated to reproducible, ethical, and collaborative data science.
+    </p>
+</div>
+````
+
 -   11:30 - 13:00: Final Presentation and Feedback Session:
 
 Based on the previous brainstorming sessions, and the progress with the
