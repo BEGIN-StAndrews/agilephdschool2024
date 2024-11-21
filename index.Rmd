@@ -368,7 +368,7 @@ provided to the selected participants.
 
         .second-row {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 5px;
         }
 
@@ -407,6 +407,9 @@ provided to the selected participants.
         </div>
         <div class="logo">
             <img src="assets/valencia.png" alt="Sponsor 5">
+        </div>
+        <div class="logo">
+            <img src="assets/logo-init-07.png" alt="Sponsor 5">
         </div>
     </div>
 </div>
