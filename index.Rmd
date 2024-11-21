@@ -173,17 +173,17 @@ Edificio de Investigación II, NB, Universitat Jaume I
 
 **Morning session**
 
--   09:00 - 10:00 - Intro and welcoming
--   Coffee break
--   10:30 - 13:30 ECR Panel Discussion – What does that mean to be a PhD
-    Student (The joy and the struggles)
--   Lunch at *Restaurante Agora* in campus
+-   09:30 - 10:00 - Intro and welcoming
+-   10:00 - 11:00 - Research Overview: Crime Analysis, crowd-sourcing mapping, spatial accessibility and movement analytics
+-   11:00 - 11:30 - Coffee Break 
+-   11:30 - 13:00 - Panel Discussion – What does that mean to be a PhD
+    Student (The joy and the struggles) - Open Discussion with selected candidates 
+-   13:00 - Lunch at *Restaurante Agora* in campus
 
 **Afternoon session**
 
 -   15:00 - 16:00 - Three-minute abstract presentations by participants
--   16:00 - 17:00 - Scientific paper - The basic structure
--   20:00 - Dinner
+-   16:00 - 17:00 - Scientific paper – Research Proposal
 
 ### Day 3: GeoAI for the Social Good
 
@@ -255,7 +255,7 @@ outcomes.
     Continuation of the morning brainstorming and drafting the paper
     idea based on the keynote speakers tools, methods and suggestions.
 
--   20:00 - Dinner: TBD
+-   20:00 - Social Dinner: TBD
 
 ### Day 4: Final presentations and closing remarks
 
