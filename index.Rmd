@@ -139,7 +139,7 @@ Get to know the 2024 PhD candidates who have been selected, find out their backg
 
 ## Programme
 
-*Note: the timetable is indicative. Details in progress*
+*Last Update: 25 Nov, 14:00 - Details in progress*
 
 ### Meeting room
 
@@ -255,7 +255,14 @@ outcomes.
     Continuation of the morning brainstorming and drafting the paper
     idea based on the keynote speakers tools, methods and suggestions.
 
--   20:00 - Social Dinner: TBD
+-   20:00 - N/A - Social Dinner: Restaurant [La Tagliatella](https://www.latagliatella.es/restaurante-italiano/castellon)
+    - Address: C/ Lagasca, esquina Prim 9, 12003, Castellón de la Plana, Spain - 
+    - GM Location: https://www.google.com/maps/place/39.9837973,-0.0303198
+```{=html}
+<iframe src="https://uostandrews.maps.arcgis.com/apps/instant/basic/index.html?appid=a28c8dc293674721ba6644daf7ef3ca9
+" width="400" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+```
+
 
 ### Day 4: Final presentations and closing remarks
 
