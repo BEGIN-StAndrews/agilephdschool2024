@@ -2499,6 +2499,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
+<li><a href="#slides-and-material" id="toc-slides-and-material">Slides and Material</a></li>
+<li><a href="#pictures" id="toc-pictures">Pictures</a></li>
 <li><a href="#why-to-participate" id="toc-why-to-participate">Why to participate?</a></li>
 <li><a href="#where-will-it-take-place" id="toc-where-will-it-take-place">Where will it take place?</a></li>
 <li><a href="#keynote-speakers" id="toc-keynote-speakers">Keynote Speakers</a>
@@ -2529,7 +2531,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<p><img src="assets/cathedralcastellondelaplananight.jpg" /></p>
+<p><img src="pictures/2024-agile-phd-school.jpeg" /></p>
 <p><strong>November 27th to 29th 2024,</strong> at the <strong>Universitat Jaume I, Castellón
 de la Plana</strong> (Spain)</p>
 <p>The AGILE PhD school is designed to connect PhD students from various
@@ -2544,6 +2546,181 @@ domain</li>
 <li>Develop their network</li>
 <li>Be exposed to the reproducibility practices in the GIScience field.</li>
 </ul>
+<h2 id="slides-and-material">Slides and Material</h2>
+
+<div class="tabs">
+  <button class="tab-button active" data-tab="keynotes">Keynote Speakers</button>
+  <button class="tab-button" data-tab="organizers">Organizers</button>
+  <button class="tab-button" data-tab="phd">PhD Candidates</button>
+</div>
+
+<div class="tab-content active" id="keynotes"></div>
+<div class="tab-content" id="organizers"></div>
+<div class="tab-content" id="phd"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const presentations = {
+      keynotes: [
+        { file: "slides/keynotes/2024-11-28_AGILEPhDSchool-GeoAI_Graser.pdf", title: "Mobility Data Science in the Age of AI" },
+        { file: "slides/keynote2.pdf", title: "Keynote 2: Innovations in Urban Analytics" }
+      ],
+      organizers: [
+        { file: "slides/organisers/AGILE-Intro.pdf", title: "Intro School"},
+        { file: "slides/organisers/AGILE-Closing.pdf", title: "Closing Remarks"},
+        { file: "slides/organisers/AR_slide_2024_final.pdf", title: "Alina Ristea - Research Agenda"},
+        { file: "slides/organisers/Hoda_Allahbakhshi_Agile.pdf", title: "Hoda Allahbakhshi- Research Agenda"},
+        { file: "slides/organisers/FBP_slide_2024.pdf", title: "Fernando Benitez-Paez - Research Agenda"},
+        
+      ],
+      phd: [
+        { file: "slides/phd1.pdf", title: "PhD Talk: Machine Learning in Geosciences" },
+        { file: "slides/phd2.pdf", title: "PhD Talk: Land-Use Change Analysis" }
+      ]
+    };
+
+    function populateTabContent(category, containerId) {
+      const container = document.getElementById(containerId);
+      presentations[category].forEach(presentation => {
+        const link = document.createElement('a');
+        link.href = presentation.file;
+        link.target = "_blank";
+        link.className = "presentation-item";
+        link.innerHTML = `
+          <span class="icon">📄</span>
+          ${presentation.title}
+        `;
+        container.appendChild(link);
+      });
+    }
+
+    populateTabContent('keynotes', 'keynotes');
+    populateTabContent('organizers', 'organizers');
+    populateTabContent('phd', 'phd');
+
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetTab = button.dataset.tab;
+
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+
+        button.classList.add('active');
+        document.getElementById(targetTab).classList.add('active');
+      });
+    });
+  });
+</script>
+
+<style>
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .tab-button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .tab-button.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  .presentation-item {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
+  }
+  .presentation-item:hover {
+    background: #e9f5ff;
+    color: #0056b3;
+  }
+  .presentation-item .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+</style>
+
+
+
+<h2 id="pictures">Pictures</h2>
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+
+<div class="gallery-container">
+  <div class="gallery" id="imageGallery"></div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const imageFolder = "pictures/";
+    const imageCount = 13; // Update with the total number of images
+    const gallery = document.getElementById('imageGallery');
+
+    for (let i = 1; i <= imageCount; i++) {
+      const imgSrc = `${imageFolder}image${i}.jpeg`;
+
+      // Create <a> and <img> elements
+      const link = document.createElement('a');
+      link.href = imgSrc;
+      link.setAttribute('data-lightbox', 'gallery');
+      link.setAttribute('data-title', `Image ${i}`);
+
+      const img = document.createElement('img');
+      img.src = imgSrc;
+      img.alt = `Image ${i}`;
+      img.loading = "lazy"; // Lazy loading for better performance
+
+      link.appendChild(img);
+      gallery.appendChild(link);
+    }
+  });
+</script>
+
+<style>
+  .gallery-container {
+    max-height: 80vh; /* Set maximum height for the gallery */
+    overflow-y: auto; /* Allow scrolling if there are many images */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for smaller images */
+    gap: 10px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
 <h2 id="why-to-participate">Why to participate?</h2>
 <p>Attending the AGILE PhD School offers a great opportunity for PhD
 students within the European GIScience community. Ideally for PhD
