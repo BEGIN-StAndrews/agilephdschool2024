@@ -51,7 +51,7 @@ Participation in the school will enable attendees to:
 
 <div class="tabs">
   <button class="tab-button active" data-tab="keynotes">Keynote Speakers</button>
-  <button class="tab-button" data-tab="organizers">Organizers</button>
+  <button class="tab-button" data-tab="organizers">Organisers</button>
   <button class="tab-button" data-tab="phd">PhD Candidates</button>
 </div>
 
@@ -75,8 +75,19 @@ Participation in the school will enable attendees to:
         
       ],
       phd: [
-        { file: "slides/phd1.pdf", title: "PhD Talk: Machine Learning in Geosciences" },
-        { file: "slides/phd2.pdf", title: "PhD Talk: Land-Use Change Analysis" }
+        { file: "slides/candidates/GeoAI in the context of Sustainable Urban Mobility.pdf", title: "GeoAI in the context of Sustainable Urban Mobility"},
+        { file: "slides/candidates/Is Geoparsing solved yet.pdf", title: "Is Geoparsing solved yet" },
+        { file: "slides/candidates/Spatial Biases of Big Datasets.pdf", title: "Spatial Biases of Big Datasets" },
+        { file: "slides/candidates/Changes can be made to the transportation network infrastructure to improve the use of public transport.pdf", title: "Changes can be made to the transportation network infrastructure to improve the use of public transport" },
+        { file: "slides/candidates/Typifying the city with pan-European open data.pdf", title: "Typifying the city with pan-European open data" },
+        { file: "slides/candidates/Exploring How Place Reputation is Constructed in Subreddits using Platial-Knowledge Graphs.pdf", title: "Exploring How Place Reputation is Constructed in Subreddits using Platial-Knowledge Graphs" },
+        { file: "slides/candidates/Estimating Daily Sea Surface Dimethyl Sulphide (DMS) Concentration over the Northern Atlantic Ocean by Machine Learning Approach.pdf", title: "Estimating Daily Sea Surface Dimethyl Sulphide (DMS) Concentration over the Northern Atlantic Ocean by Machine Learning Approach" },
+        { file: "slides/candidates/Resource-Efficient Cloud Removal Methods for Supporting Zero Hunger in Developing Tropical Areas.pdf", title: "Resource-Efficient Cloud Removal Methods for Supporting Zero Hunger in Developing Tropical Areas" },
+        { file: "slides/candidates/Understanding Social and Spatial Inequalities in Common Mental Health Disorders.pdf", title: "Understanding Social and Spatial Inequalities in Common Mental Health Disorders" },
+        { file: "slides/candidates/Framework for Spatial Predictive Modelling of Soil Properties Using Machine Learning.pdf", title: "Framework for Spatial Predictive Modelling of Soil Properties Using Machine Learning" },
+        { file: "slides/candidates/The housing market impacts of building energy efficiency regulation.pdf", title: "The housing market impacts of building energy efficiency regulation" },
+        { file: "slides/candidates/Measuring Spatial Housing Market Inequalities in Madrid Using New Forms of Data.pdf", title: "Measuring Spatial Housing Market Inequalities in Madrid Using New Forms of Data" },
+        { file: "slides/candidates/Conversational Systems for Complex Routing Problems.pdf", title: "Conversational Systems for Complex Routing Problems" },
       ]
     };
 
