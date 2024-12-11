@@ -46,7 +46,7 @@ Participation in the school will enable attendees to:
 -   Develop their network
 -   Be exposed to the reproducibility practices in the GIScience field.
 
-## Slides and Material
+## Slides and Shared Material
 ```{=html}
 
 <div class="tabs">
@@ -64,6 +64,7 @@ Participation in the school will enable attendees to:
     const presentations = {
       keynotes: [
         { file: "slides/keynotes/2024-11-28_AGILEPhDSchool-GeoAI_Graser.pdf", title: "Mobility Data Science in the Age of AI" },
+        { file: "slides/keynotes/JPAlbuquerque_AGILEPPhDSchool_Nov2024.pdf", title: "Participatory Urban Analytics for Inclusive Data Innovations: Enabling Transformative Public Policies" },        
         { file: "slides/keynotes/Reproducible research in GeoScience.pdf", title: "Reproducible research in GeoScience" }
       ],
       organizers: [
