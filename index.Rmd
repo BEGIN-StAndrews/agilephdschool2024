@@ -72,8 +72,8 @@ Participation in the school will enable attendees to:
         { file: "slides/organisers/AGILE-Closing.pdf", title: "Closing Remarks"},
         { file: "slides/organisers/AR_slide_2024_final.pdf", title: "Alina Ristea - Research Agenda"},
         { file: "slides/organisers/Hoda_Allahbakhshi_Agile.pdf", title: "Hoda Allahbakhshi- Research Agenda"},
+        { file: "slides/organisers/DP_PhDSchool_PersonalJourney.pdf", title: "Diego Pajarito - Research Journey"},
         { file: "slides/organisers/FBP_slide_2024.pdf", title: "Fernando Benitez-Paez - Research Agenda"},
-        
       ],
       phd: [
         { file: "slides/candidates/GeoAI in the context of Sustainable Urban Mobility.pdf", title: "GeoAI in the context of Sustainable Urban Mobility"},
